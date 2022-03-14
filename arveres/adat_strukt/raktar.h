@@ -1,6 +1,9 @@
 #ifndef RAKTAR_H_INCLUDED
 #define RAKTAR_H_INCLUDED
 
+#include "vevo.h"
+#include "karakter.h"
+
 /**
 Raktárakat leíró osztály
  - itt lesznek eltárolva egyszerre több karakter
@@ -8,10 +11,8 @@ Raktárakat leíró osztály
 
 class Raktar{
     private:
-        bool szabad_e;
-        Vevo *megvette_vevo;
         Karakter karakterek[10]; // Maximum 10 karakter fér egy raktárba !!
-        int ossz_ertek; // ez kell vagy elég mindig a kerakterekből kiszámolni?
+        int ossz_ertek;
 };
 
 

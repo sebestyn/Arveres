@@ -1,24 +1,39 @@
 #include <iostream>
 #include <fstream>
 
-#include "gtest_lite.h"
 #include "memtrace.h"
 
 #include "adat_strukt/karakter.h"
+#include "adat_strukt/jatek.h"
+
 #include "fajlok_kezelese.h"
+#include "fajlok_kezelese.cpp"
 
 using namespace std;
 
+
 /// GLOBÁLIS VÁLTOZÓK
-const int DB_GEPEK = 2;
-const int JATEK_VEGE_PENZOSSZEG = 10000;
-const char* KARAKTEREK_FAJL_NEV = "adatok/karaker.txt";
-const char* JATEKOS_FAJL_NEV = "adatok/jatekos.txt";
-const char* RAKTAROK__FAJL_NEV = "adatok/raktarok.txt";
+const int ROBOTOK_DB = 2;
+const int JATEK_VEGE_PENZOSSZEG = 10000; // 10000-> nyert   0 -> vesztett
 
 int main()
 {
+    Jatek Fojatek;
 
-    cout << "Hello world!" << endl;
+    // Fájlok beolvasasa (hiba esetén kilép)
+    try{
+        fajlok::beolvas(&Fojatek);
+    } catch(int e){
+        cerr << "ERROR: Olyan hiba tortent ami miatt a program nem tud tovabb futni." << endl;
+        return -1;
+    }
+
+    Fojatek.print();
+
+    // Fájlok kiírása
+    fajlok::kiir(&Fojatek);
+
+
+    cout << endl << "====== Sikeres program futtatas tortent! ======" << endl;
     return 0;
 }

@@ -39,3 +39,65 @@
 
 1646993944 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres\adat_strukt\karakter.h
 
+1647269249 source:c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\main.cpp
+	<iostream>
+	<fstream>
+	"memtrace.h"
+	"adat_strukt/karakter.h"
+	"adat_strukt/jatek.h"
+	"fajlok_kezelese.h"
+	"fajlok_kezelese.cpp"
+
+1647257473 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\gtest_lite.h
+	<iostream>
+	<cassert>
+	<cmath>
+	<cstring>
+	<limits>
+	<string>
+	<fstream>
+	"memtrace.h"
+
+1647257473 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\memtrace.h
+	<new>
+	<cstdio>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<list>
+	<map>
+	<algorithm>
+	<functional>
+
+1647267724 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\karakter.h
+
+1647269251 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\fajlok_kezelese.h
+	"adat_strukt/jatek.h"
+	"adat_strukt/karakter.h"
+	"adat_strukt/vevo.h"
+
+1647257473 source:c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1647269753 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\fajlok_kezelese.cpp
+	"fajlok_kezelese.h"
+
+1647269658 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\jatek.h
+	"vevo.h"
+	"karakter.h"
+	"raktar.h"
+
+1647268474 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\vevo.h
+	"raktar.h"
+
+1647262867 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\raktar.h
+	"vevo.h"
+	"karakter.h"
+
