@@ -32,6 +32,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="_test_.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="adat_strukt/jatek.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="adat_strukt/jatek.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="adat_strukt/karakter.h" />
 		<Unit filename="adat_strukt/licitalas.h">
 			<Option target="&lt;{~None~}&gt;" />
