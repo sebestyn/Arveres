@@ -11,6 +11,7 @@ class Karakter{
         int gyakorisag; // 0-100%
     public:
 
+        /// Konstruktor
         Karakter(char k=' ', int ertek=1, int gyakorisag=0) :k(k), ertek(ertek), gyakorisag(gyakorisag){}
 
         /// GET parameters

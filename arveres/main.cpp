@@ -1,26 +1,45 @@
 #include <iostream>
 #include <fstream>
-
 #include "memtrace.h"
 
+/// Saját fájlok
 #include "adat_strukt/karakter.h"
 #include "adat_strukt/jatek.h"
-
 #include "fajlok_kezelese.h"
 #include "fajlok_kezelese.cpp"
+#include "menu.h"
+#include "menu.cpp"
 
-using namespace std;
+/// Using namespaces
+using std::cout;
+using std::endl;
+
+/// Defines
+//#define TEST_MODE
+
+/// Fontos infók
+/*
+ - 3 robot, 1 ember
+ - Nyer: elér 10 000Ft-ot, Veszít: 0 Ft alá megy
+*/
+
+/// GLOBÁLIS VÁLTOZÓK
 
 
-/// GLOB�LIS V�LTOZ�K
-const int ROBOTOK_DB = 2;
-const int JATEK_VEGE_PENZOSSZEG = 10000; // 10000-> nyert   0 -> vesztett
+/// MAIN
+int main(){
 
-int main()
-{
+#ifdef TEST_MODE
+
+    cout << "-------" TEST MODE ACTIVE -------" << endl << endl;
+
+#else
+
+
+    /// Fő játék változó
     Jatek Fojatek;
 
-    // F�jlok beolvasasa (hiba eset�n kil�p)
+    /// Fájlok beolvasasa (hiba esetén kilép)
     try{
         fajlok::beolvas(&Fojatek);
     } catch(int e){
@@ -28,12 +47,15 @@ int main()
         return -1;
     }
 
-    Fojatek.print();
+    /// Menü futtatasa
+    menu::run(&Fojatek);
 
-    // F�jlok ki�r�sa
+    /// Fájlok kiírása (adatok mentése)
     fajlok::kiir(&Fojatek);
 
 
     cout << endl << "====== Sikeres program futtatas tortent! ======" << endl;
     return 0;
+
+#endif // TEST_MODE
 }

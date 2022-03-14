@@ -15,7 +15,9 @@ Vevők leíró osztályy
     private:
         int id;
     public:
-        void print(){}
+
+        /// Konstruktor
+        Vevo(){}
 
         /// Get parameters
         int get_id(){
@@ -27,6 +29,8 @@ Vevők leíró osztályy
             this->id = id;
         }
 
+        /// Kiírás
+        void print(){}
  };
 
 class Ember : public Vevo {
@@ -34,6 +38,8 @@ class Ember : public Vevo {
         int penz;
         int megvett_raktarak_szama;
     public:
+
+        /// Konstruktor
         Ember(int p = 2000, int m = 0):penz(p), megvett_raktarak_szama(m){this->set_id(0);}
 
         /// GET parameters
@@ -59,6 +65,8 @@ class Ember : public Vevo {
 
 class Robot : public Vevo {
     public:
+
+        /// Konstruktor
         Robot(int id=1){this->set_id(id);}
 
         /// Kiírás

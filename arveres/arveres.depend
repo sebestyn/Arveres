@@ -39,7 +39,7 @@
 
 1646993944 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres\adat_strukt\karakter.h
 
-1647269249 source:c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\main.cpp
+1647280664 source:c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\main.cpp
 	<iostream>
 	<fstream>
 	"memtrace.h"
@@ -47,6 +47,8 @@
 	"adat_strukt/jatek.h"
 	"fajlok_kezelese.h"
 	"fajlok_kezelese.cpp"
+	"menu.h"
+	"menu.cpp"
 
 1647257473 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\gtest_lite.h
 	<iostream>
@@ -71,7 +73,7 @@
 	<algorithm>
 	<functional>
 
-1647267724 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\karakter.h
+1647278950 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\karakter.h
 
 1647269251 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\fajlok_kezelese.h
 	"adat_strukt/jatek.h"
@@ -94,10 +96,16 @@
 	"karakter.h"
 	"raktar.h"
 
-1647268474 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\vevo.h
+1647278948 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\vevo.h
 	"raktar.h"
 
 1647262867 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\raktar.h
 	"vevo.h"
 	"karakter.h"
+
+1647280655 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\menu.h
+	"adat_strukt/jatek.h"
+
+1647280784 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\menu.cpp
+	"menu.h"
 
