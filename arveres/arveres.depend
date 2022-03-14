@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1646993915 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres\main.cpp
+	<iostream>
+	<fstream>
+	"gtest_lite.h"
+	"memtrace.h"
+	"adat_strukt/karakter.h"
+
+1646752061 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres\gtest_lite.h
+	<iostream>
+	<cassert>
+	<cmath>
+	<cstring>
+	<limits>
+	<string>
+	<fstream>
+	"memtrace.h"
+
+1646752062 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres\memtrace.h
+	<new>
+	<cstdio>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<list>
+	<map>
+	<algorithm>
+	<functional>
+
+1646752062 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1646993944 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres\adat_strukt\karakter.h
+
