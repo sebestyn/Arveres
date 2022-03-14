@@ -41,11 +41,23 @@
 		<Unit filename="adat_strukt/jatek.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="adat_strukt/karakter.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="adat_strukt/karakter.h" />
+		<Unit filename="adat_strukt/licitalas.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="adat_strukt/licitalas.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="adat_strukt/raktar.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="adat_strukt/raktar.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="adat_strukt/vevo.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="adat_strukt/vevo.h">
@@ -61,6 +73,12 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="memtrace.cpp" />
 		<Unit filename="memtrace.h" />
+		<Unit filename="menu.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="menu.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
