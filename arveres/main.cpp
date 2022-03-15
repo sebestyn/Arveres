@@ -12,6 +12,8 @@
 #include "adat_strukt/jatek.cpp"
 #include "adat_strukt/vevo.h"
 #include "adat_strukt/vevo.cpp"
+#include "adat_strukt/licitalas.h"
+#include "adat_strukt/licitalas.cpp"
 
 
 /// Using namespaces
@@ -32,6 +34,8 @@ using std::endl;
 char* Jatek::KARAKTER_FAJL_NEV = (char*)"adatok/karaker.dat";
 char* Jatek::JATEKOS_FAJL_NEV  = (char*)"adatok/jatekos.dat";
 int Ember::KEZDO_PENZ = 2500;
+int Robot::ALAP_EMELES_LICITNEL = 200;
+int Licitalas::KEZDO_AR = 100;
 
 /// MAIN
 int main(){
@@ -56,7 +60,12 @@ int main(){
 
 
     /// Menü futtatasa
-    Fojatek.inditas();
+    try{
+        Fojatek.inditas();
+    } catch(int e){
+        cerr << "ERROR: Olyan hiba tortent ami miatt a program nem tud tovabb futni." << endl;
+        return -1;
+    }
 
 
     /// Fájlokba kiírás (hiba esetén kilép)

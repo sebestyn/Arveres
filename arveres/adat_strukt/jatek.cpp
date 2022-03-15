@@ -7,12 +7,6 @@
 Jatek::Jatek(){
     // Ready hamisra
     this->ready = false;
-    // Kijon beállítása (mindig az ember kezd)
-    this->kijon = &(this->ember);
-    // Robotok id beállítása
-    for(int i; i<3;i++){
-        this->robotok[i].set_id(i+1);
-    }
 }
 
 
@@ -132,7 +126,6 @@ void Jatek::inditas(){
         cout << " s -> Jatek inditasa" << endl;
         cout << " p -> Jatek adatai kiirasa" << endl;
         cout << " q -> Kilepes, adatok mentese (ENELKUL AZ ADATOK ELVESZNEK!!!)" << endl;
-
         cout << " Valasztasom: ";
         cin >> bemenet;
 
@@ -143,8 +136,13 @@ void Jatek::inditas(){
                 console::PressAKeyToContinue();
                 break;
             case 's':
-                cout << "Jateeeek" << endl;
-                console::PressAKeyToContinue();
+                if(this->ready){
+                    cout << "Jateeeek" << endl;
+                    this->licit_inditas();
+                } else {
+                    cerr << "ERROR: A program nem jatek kesz. Valami hiba tortent a program kezdetekor. Probald meg ujra futtatni." << endl;
+                    throw 400;
+                }
                 break;
             case 'q':
                 cout << "Viszlat!" << endl;
@@ -160,6 +158,28 @@ void Jatek::inditas(){
 }
 
 
+/// Licit indítása
+void Jatek::licit_inditas(){
+
+    // Addig uj raktár licitálás ameddig azt nem mondja hogy nem
+    char folytat = 'i';
+    while(folytat != 'n'){
+        // Új licitálás
+        this->hanyadik_raktar += 1;
+        Licitalas licitalas(&(this->ember));
+        licitalas.print_vevok();
+        cout << endl << endl;
+        licitalas.kezdes();
+        cout << endl << "Szeretned folytatni a kovetkezo raktarral? (i=igen, n=nem)" << endl;
+        cin >> folytat;
+    }
+
+    // Vissza a főmenübe
+    cout << endl << "Most vissza mesz a fomenube" << endl;
+    console::PressAKeyToContinue();
+}
+
+
 /// Kiírás
 // Karakterek kiírása
 void Jatek::print_karakterek(){
@@ -169,22 +189,18 @@ void Jatek::print_karakterek(){
     }
     cout << endl;
 }
-// Vevők kiírása
-void Jatek::print_vevok(){
-    cout << "Vevok:" << endl;
+// Ember kiírása
+void Jatek::print_ember(){
     this->ember.print();
-    for(int i=0; i<3; i++){
-        robotok[i].print();
-    }
     cout << endl;
 }
 // Játék kiírása
 void Jatek::print(){
     cout << endl << "------ JATEK ADATAI ------" << endl << endl;
-    cout << "Eddigi raktarak szama: " << this->hanyadik_raktar << endl << endl;
+    cout << "Jatek: " << endl;
+    cout << " - Eddigi raktarak szama: " << this->hanyadik_raktar << endl << endl;
     this->print_karakterek();
-    this->print_vevok();
-    cout << "Kovetkezo vevo ID: " << this->get_kijon_vevo_id() << endl;
+    this->print_ember();
     cout << "--------------------------" << endl << endl;
 }
 

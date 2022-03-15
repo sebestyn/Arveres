@@ -39,7 +39,7 @@
 
 1646993944 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres\adat_strukt\karakter.h
 
-1647348109 source:c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\main.cpp
+1647364090 source:c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\main.cpp
 	<iostream>
 	"memtrace.h"
 	"adat_strukt/karakter.h"
@@ -48,6 +48,8 @@
 	"adat_strukt/jatek.cpp"
 	"adat_strukt/vevo.h"
 	"adat_strukt/vevo.cpp"
+	"adat_strukt/licitalas.h"
+	"adat_strukt/licitalas.cpp"
 
 1647257473 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\gtest_lite.h
 	<iostream>
@@ -102,15 +104,16 @@
 1647338429 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\fajlok_kezelese.cpp
 	"fajlok_kezelese.h"
 
-1647347552 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\jatek.h
+1647363352 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\jatek.h
 	<conio.h>
 	"../memtrace.h"
 	"../console.h"
 	"vevo.h"
 	"karakter.h"
 	"raktar.h"
+	"licitalas.h"
 
-1647342055 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\vevo.h
+1647366437 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\vevo.h
 	"../memtrace.h"
 	"raktar.h"
 
@@ -129,11 +132,17 @@
 1647279692 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\karakter.cpp
 	"karakter.h"
 
-1647348141 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\jatek.cpp
+1647366348 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\jatek.cpp
 	"jatek.h"
 
 1647279685 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\vevo.cpp
 	"vevo.h"
 
-1647347535 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\console.h
+1647362054 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\console.h
+
+1647366445 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\licitalas.h
+	"../memtrace.h"
+
+1647279703 c:\users\sebi\documents\bme\prog2\bme-prog2-nhf\arveres\adat_strukt\licitalas.cpp
+	"licitalas.h"
 

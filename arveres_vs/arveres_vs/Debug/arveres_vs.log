@@ -1,0 +1,94 @@
+﻿  jatek.cpp
+  MEMTRACE NOT DEFINED
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\console.h(32,19): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\console.h(33,39): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(33,14): error C2079: 'fajl' uses undefined class 'std::basic_ifstream<char,std::char_traits<char>>'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(33,42): error C2440: 'initializing': cannot convert from 'char *' to 'int'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(33,18): message : There is no context in which this conversion is possible
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(37,10): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(47,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(48,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(49,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(59,14): error C2079: 'fajl' uses undefined class 'std::basic_ifstream<char,std::char_traits<char>>'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(59,41): error C2440: 'initializing': cannot convert from 'char *' to 'int'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(59,18): message : There is no context in which this conversion is possible
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(64,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(67,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(70,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(102,18): error C2079: 'fajl' uses undefined class 'std::basic_ofstream<char,std::char_traits<char>>'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(102,45): error C2440: 'initializing': cannot convert from 'char *' to 'int'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(102,22): message : There is no context in which this conversion is possible
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(106,46): error C2563: mismatch in formal parameter list
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(106,46): error C2568: '<<': unable to resolve function overload
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(106,46): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(106,46): message : or       'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(108,47): error C2563: mismatch in formal parameter list
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(108,47): error C2568: '<<': unable to resolve function overload
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(108,47): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(108,47): message : or       'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(110,14): warning C4552: '<<': result of expression not used
+  karakter.cpp
+  MEMTRACE NOT DEFINED
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\karakter.h(33,13): error C2065: 'cout': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\karakter.h(33,84): error C2065: 'endl': undeclared identifier
+  licitalas.cpp
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\licitalas.h(4,10): fatal error C1083: Cannot open include file: 'memtrace.h': No such file or directory
+  raktar.cpp
+  MEMTRACE NOT DEFINED
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(62,13): error C2065: 'cout': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(62,36): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(63,52): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(64,61): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(65,82): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(77,13): error C2065: 'cout': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(77,36): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(78,52): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\karakter.h(33,13): error C2065: 'cout': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\karakter.h(33,84): error C2065: 'endl': undeclared identifier
+  vevo.cpp
+  MEMTRACE NOT DEFINED
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\karakter.h(33,13): error C2065: 'cout': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\karakter.h(33,84): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(62,13): error C2065: 'cout': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(62,36): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(63,52): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(64,61): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(65,82): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(77,13): error C2065: 'cout': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(77,36): error C2065: 'endl': undeclared identifier
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\vevo.h(78,52): error C2065: 'endl': undeclared identifier
+  arveres_vs.cpp
+  main.cpp
+  MEMTRACE NOT DEFINED
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\console.h(32,19): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\console.h(33,39): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(33,14): error C2079: 'fajl' uses undefined class 'std::basic_ifstream<char,std::char_traits<char>>'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(33,42): error C2440: 'initializing': cannot convert from 'char *' to 'int'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(33,18): message : There is no context in which this conversion is possible
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(37,10): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(47,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(48,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(49,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(59,14): error C2079: 'fajl' uses undefined class 'std::basic_ifstream<char,std::char_traits<char>>'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(59,41): error C2440: 'initializing': cannot convert from 'char *' to 'int'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(59,18): message : There is no context in which this conversion is possible
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(64,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(67,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(70,14): warning C4552: '>>': result of expression not used
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(102,18): error C2079: 'fajl' uses undefined class 'std::basic_ofstream<char,std::char_traits<char>>'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(102,45): error C2440: 'initializing': cannot convert from 'char *' to 'int'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(102,22): message : There is no context in which this conversion is possible
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(106,46): error C2563: mismatch in formal parameter list
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(106,46): error C2568: '<<': unable to resolve function overload
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(106,46): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(106,46): message : or       'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(108,47): error C2563: mismatch in formal parameter list
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(108,47): error C2568: '<<': unable to resolve function overload
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(108,47): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(108,47): message : or       'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\Users\Sebi\Documents\BME\prog2\bme-prog2-NHF\arveres_vs\arveres_vs\adat_strukt\jatek.cpp(110,14): warning C4552: '<<': result of expression not used
+  memtrace.cpp
+  menu.cpp
+  _test_.cpp
+  MEMTRACE NOT DEFINED
+  Generating Code...

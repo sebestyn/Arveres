@@ -43,39 +43,55 @@ class Ember : public Vevo {
     public:
 
         /// Konstruktor
-        Ember(int p = 0, int m = 0):penz(KEZDO_PENZ), megvett_raktarak_szama(m){this->set_id(0);}
+        Ember(int p = KEZDO_PENZ, int m = 0):penz(p), megvett_raktarak_szama(m){this->set_id(0);}
 
         /// GET parameters
         int get_penz(){return this->penz;}
         int get_megvett_raktarak_szama(){return this->megvett_raktarak_szama;}
 
+        /// SET parameters
+        void megvett_raktarak_szama_plus_1(){
+            this->megvett_raktarak_szama += 1;
+        }
 
-        /// Operator: = (Enélkül is működik vmiért)
-        /*Ember& operator=(Ember ember){
-            this->penz = ember.get_penz();
-            this->megvett_raktarak_szama = ember.get_megvett_raktarak_szama();
-            return *this;
-        }*/
+        /// Licitálás emelés kérdés
+        int emelek(){
+            cout << "Mennyivel emelek vagy kiszallok(0)?" << endl;
+            int emelek_osszeg;
+            cin >> emelek_osszeg;
+            return emelek_osszeg;
+        }
+
+        /// Pénz csökkentése
+        void penz_csokkentese(int mennyivel=0){
+            this->penz = this->penz-mennyivel;
+        }
 
         /// Kiírás
         void print() {
-            cout << " - Ember:" << endl <<
-                    "   - id "<< this->get_id() << endl <<
-                    "   - Penz egyenlege: "<< this->penz << endl <<
-                    "   - Megevett raktarak: "<< this->megvett_raktarak_szama << endl;
+            cout << "Ember:" << endl <<
+                    " - id: "<< this->get_id() << endl <<
+                    " - Penz egyenlege: "<< this->penz << endl <<
+                    " - Megevett raktarak: "<< this->megvett_raktarak_szama << endl;
         }
 };
 
 class Robot : public Vevo {
+    private:
+        static int ALAP_EMELES_LICITNEL;
+
     public:
 
         /// Konstruktor
         Robot(int id=1){this->set_id(id);}
 
+        /// Licitálás emelés kérdés
+        int emelek(){ return 0; return this->ALAP_EMELES_LICITNEL; }
+
         /// Kiírás
         void print(){
-            cout << " - Robot:" << endl <<
-                    "   - id "<< this->get_id() << endl;
+            cout << "Robot:" << endl <<
+                    " - id: "<< this->get_id() << endl;
         }
 };
 

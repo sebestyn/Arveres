@@ -9,9 +9,11 @@
 #include "vevo.h"
 #include "karakter.h"
 #include "raktar.h"
+#include "licitalas.h"
 
 /// Using namespaces
 using std::cout;
+using std::cerr;
 using std::cin;
 using std::endl;
 
@@ -22,10 +24,8 @@ class Jatek{
         // Raktar
         int hanyadik_raktar=0;
         Raktar akt_raktar;
-        // Vevo
-        Vevo *kijon;
-        Ember ember; // Mindig 1 ember lesz
-        Robot robotok[3]; // Mindig 3 robot lesz
+        // Vevo játékos
+        Ember ember;
         // Karakter
         Karakter* karakterek;
         int karakterek_szama = 0;
@@ -49,9 +49,11 @@ class Jatek{
         /// Játék indítása
         void inditas();
 
+        /// Licit indítása
+        void licit_inditas();
+
         /// GET parameters
         int get_hanyadik_raktar() const{return this->hanyadik_raktar;}
-        int get_kijon_vevo_id() const{return this->kijon->get_id();}
         Ember get_ember() const{return this->ember;}
 
         /// SET parameters
@@ -65,8 +67,8 @@ class Jatek{
         /// Kiírás
         // Karakterek kiírása
         void print_karakterek();
-        // Vevők kiírása
-        void print_vevok();
+        // Ember kiírása
+        void print_ember();
         // Játék kiírása
         void print();
 };
