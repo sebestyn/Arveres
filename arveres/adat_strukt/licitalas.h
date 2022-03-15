@@ -1,6 +1,8 @@
 #ifndef LICITALAS_H_INCLUDED
 #define LICITALAS_H_INCLUDED
 
+#include "memtrace.h"
+
 class Licitalas{
     private:
         Raktar raktar;

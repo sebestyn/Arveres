@@ -1,6 +1,8 @@
 #ifndef VEVO_H_INCLUDED
 #define VEVO_H_INCLUDED
 
+#include "../memtrace.h"
+
 #include "raktar.h"
 
 using namespace std;
@@ -37,10 +39,11 @@ class Ember : public Vevo {
     private:
         int penz;
         int megvett_raktarak_szama;
+        static int KEZDO_PENZ;
     public:
 
         /// Konstruktor
-        Ember(int p = 2000, int m = 0):penz(p), megvett_raktarak_szama(m){this->set_id(0);}
+        Ember(int p = 0, int m = 0):penz(KEZDO_PENZ), megvett_raktarak_szama(m){this->set_id(0);}
 
         /// GET parameters
         int get_penz(){return this->penz;}

@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="-DMEMTRACE" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -63,22 +64,13 @@
 		<Unit filename="adat_strukt/vevo.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="fajlok_kezelese.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="fajlok_kezelese.h">
+		<Unit filename="console.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="gtest_lite.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="memtrace.cpp" />
 		<Unit filename="memtrace.h" />
-		<Unit filename="menu.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="menu.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

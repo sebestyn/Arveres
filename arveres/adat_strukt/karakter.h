@@ -1,6 +1,8 @@
 #ifndef KARAKTER_H_INCLUDED
 #define KARAKTER_H_INCLUDED
 
+#include "../memtrace.h"
+
 using namespace std;
 
 /** Karaktereket leíró osztály **/

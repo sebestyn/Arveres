@@ -1,6 +1,8 @@
 #ifndef RAKTAR_H_INCLUDED
 #define RAKTAR_H_INCLUDED
 
+#include "../memtrace.h"
+
 #include "vevo.h"
 #include "karakter.h"
 
