@@ -26,14 +26,8 @@ class Raktar{
         static int MAX_KARAKTAREK_SZAMA;
     public:
         /// Konstruktor
-        Raktar() :kar_szama(0), ossz_ertek(0){
-            cout << "Raktar Konstruktor() " << endl;
-        };
-
-
-        Raktar(Karakter* el_kar, int el_kar_szama) :kar_szama(0), ossz_ertek(0){
-            cout << "Raktar Konstruktor(Karakter*, int) " << endl;
-
+        Raktar(){};
+        Raktar(Karakter* el_kar, int el_kar_szama){
             // Karakterek beállítása
             this->karakterek = new Karakter[3];
             this->kar_szama = 3;
@@ -41,23 +35,14 @@ class Raktar{
             for(int i=0; i<this->kar_szama; i++){
                 this->karakterek[i] = el_kar[i];
                 this->ossz_ertek += el_kar[i].get_ertek();
+                //this->karakterek[i].set_all(el_kar[i].get_k(), el_kar[i].get_ertek(), el_kar[i].get_gyakorisag());
             }
 
-            this->print();
         }
 
-
-        /// Destruktor -> karakterek dinamikus tömb felszabadítása
-        ~Raktar(){
-            cout << "Raktar kar szam: " << this->kar_szama << endl;
-            cout << "Karakterek cim : " << this->karakterek << endl;
-
-            this->print();
-
-            if(this->kar_szama > 0){
-                delete[] this->karakterek;
-            }
-
+        /// Karakterek tömb felszabadítása
+        void karakterek_felszabaditasa(){
+            delete[] this->karakterek;
         }
 
         /// GET parameters
@@ -65,13 +50,6 @@ class Raktar{
         Karakter* get_karakterek() const {return this->karakterek;}
         int get_ossz_ertek() const {return this->ossz_ertek;}
 
-        /// = operator
-        Raktar& operator=(const Raktar& r){
-            this->kar_szama = r.get_kar_szam();
-            this->ossz_ertek = r.get_ossz_ertek();
-            this->karakterek =r.get_karakterek();
-            return *this;
-        }
 
         /// Kiírása
         void print(){

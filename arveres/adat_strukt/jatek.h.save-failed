@@ -6,13 +6,14 @@
 #include <string>
 #include <conio.h> // PressAKeyToContinue függvényhez
 
-/// Saját fájlok
 #include "../memtrace.h"
+
 #include "../console.h"
 #include "vevo.h"
 #include "karakter.h"
 #include "raktar.h"
 #include "licitalas.h"
+
 
 /// Using namespaces
 using std::cout;
@@ -20,8 +21,6 @@ using std::cerr;
 using std::cin;
 using std::endl;
 using std::string;
-using std::ifstream;
-using std::ofstream;
 
 
 /** Egy játék menetet leíró osztály **/
@@ -65,10 +64,8 @@ class Jatek{
         void licitek_inditas();
 
         /// GET parameters
-        int get_hanyadik_raktar()  const { return this->hanyadik_raktar; }
-        Karakter* get_karakterek() const { return this->karakterek; }
-        int get_karakterek_szama() const { return this->karakterek_szama; }
-        Ember get_ember()          const { return this->ember; }
+        int get_hanyadik_raktar() const{return this->hanyadik_raktar;}
+        Ember get_ember() const{return this->ember;}
 
         /// SET parameters
         // Set hanyadik_raktar

@@ -29,7 +29,6 @@ class Jatek{
     private:
         // Raktar
         int hanyadik_raktar=0;
-        Raktar akt_raktar;
         // Vevo játékos
         Ember ember;
         // Karakter

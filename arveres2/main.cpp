@@ -58,16 +58,16 @@ int main(){
     /// Előkészítés -> fájlok beolvasasa (hiba esetén kilép)
     try{
         Fojatek.beolvas_fajlokbol();
-    } catch(int e){
+    } catch(int){
         cerr << "ERROR: Olyan hiba tortent ami miatt a program nem tud tovabb futni." << endl;
         return -1;
     }
 
 
-    /// Menü futtatasa
+    /// Menü futtatasa  (hiba esetén kilép)
     try{
         Fojatek.fomenu_inditas();
-    } catch(int e){
+    } catch(int){
         cerr << "ERROR: Olyan hiba tortent ami miatt a program nem tud tovabb futni." << endl;
         return -1;
     }
@@ -78,7 +78,7 @@ int main(){
         cout << "Fajlok mentese... ";
         Fojatek.kiiras_fajlba();
         cout << "SIKERES" << endl;
-    } catch(int e){
+    } catch(int){
         cerr << "ERROR: Olyan hiba tortent ami miatt a program nem tud tovabb futni." << endl;
         return -1;
     }

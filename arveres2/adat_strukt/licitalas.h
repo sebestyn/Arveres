@@ -25,7 +25,6 @@ class Licitalas{
         /// Konstruktor
         Licitalas(){ cout << "Licitalas konstruktor() " <<  endl; }
         Licitalas(Ember* ember_pointer, Karakter* elerheto_karakterek, int el_kar_szama) :ember(ember_pointer), akt_ar(this->KEZDO_AR) {
-            cout << "Licitalas konstruktor(Ember*, Karakter*, int) " <<  endl;
 
             // Robotok id beállítása
             for(int i=0; i<3;i++){
@@ -34,16 +33,22 @@ class Licitalas{
             // Új raktár generálása
             Raktar temp(elerheto_karakterek, el_kar_szama);
             this->raktar = temp;
-            this->raktar.print();
         }
 
         /// Destruktor
         ~Licitalas(){}
 
-        /// Egy raktár licitálás kezdése
-        void kezdes(){
+        /// GET parameters
+        Raktar get_raktar() const {return this->raktar;}
+
+        /// Egy raktár licitálás futtatása
+        void futtatas(){
+
             int robot_passzok_szama = 0; // ha ez 3 lesz -> az ember kapja a raktárat
             bool ember_kiszallt = false;
+
+            // Raktár kirajzolása
+            this->get_raktar().print();
 
             // Ameddig az ember nem szallt ki és legalább egy robot sem
             while(!ember_kiszallt && robot_passzok_szama < 3){
@@ -107,6 +112,12 @@ class Licitalas{
                 // Megvett raktárak száma növelése
                 this->ember->megvett_raktarak_szama_plus_1();
             }
+
+            cout << endl << endl << "Raktar a licitalas.kezdes vegen:" << endl;
+            this->raktar.print();
+
+            // Raktár dinamikus karakterei felszabadítása
+            this->raktar.karakterek_felszabaditasa();
         }
 
         /// Kiírás

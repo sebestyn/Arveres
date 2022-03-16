@@ -186,6 +186,7 @@ void Jatek::fomenu_inditas(){
                 cout << "Hibas bemenet" << endl;
                 console::PressAKeyToContinue();
         }
+
     }
 }
 
@@ -197,13 +198,11 @@ void Jatek::licitek_inditas(){
     char folytat = ' ';
     while(folytat != 'n'){
         // Új licitálás
-        Licitalas licitalas(&(this->ember), this->get_karakterek(), this->get_karakterek_szama());
+        Licitalas akt_licitalas(&(this->ember), this->get_karakterek(), this->get_karakterek_szama());
         this->hanyadik_raktar += 1;
 
-        //licitalas.print_vevok();
-        //cout << endl << endl;
-
-        licitalas.kezdes();
+        // Licitálás futtatása
+        akt_licitalas.futtatas();
 
         // Folytatja-e?
         cout << endl << "Szeretned folytatni a kovetkezo raktarral? ";
@@ -213,6 +212,7 @@ void Jatek::licitek_inditas(){
             cout << "(i = igen, n = nem)" << endl;
             folytat = console::char_input();
         }
+
     }
 
     // Vissza a főmenübe
