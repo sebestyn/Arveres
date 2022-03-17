@@ -6,6 +6,7 @@
 #include <string>
 #include <conio.h> // PressAKeyToContinue függvényhez
 #include <algorithm>
+#include <time.h> // Random szám generálás (srand)
 #include "memtrace.h"
 
 
@@ -44,7 +45,7 @@ int Ember::KEZDO_PENZ = 2500;
 int Robot::ALAP_EMELES_LICITNEL = 200;
 int Licitalas::KEZDO_AR = 100;
 int Raktar::MAX_KARAKTAREK_SZAMA = 10;
-int Raktar::MIN_KARAKTAREK_SZAMA = 3;
+int Raktar::MIN_KARAKTAREK_SZAMA = 1;
 
 /// MAIN
 int main(){
@@ -54,6 +55,9 @@ int main(){
     cout << "------- TEST MODE ACTIVE -------" << endl << endl;
 
 #else
+
+    // Random generátor seed véletlet(idő) beállítása
+    srand(time(0));
 
     /// Fő játék változó
     Jatek Fojatek;

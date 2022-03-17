@@ -100,7 +100,13 @@ class Robot : public Vevo {
         Robot(int id=1){this->set_id(id);}
 
         /// Licitálás emelés kérdés
-        int emelek(){ return 0; /*return this->ALAP_EMELES_LICITNEL;*/ }
+        int emelek(){
+            int szam_0_10 = rand() % 10;
+            if(szam_0_10 >= 7){
+                return this->ALAP_EMELES_LICITNEL;
+            }
+            return 0;
+        }
 
         /// Kiírás
         void print(){

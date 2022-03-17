@@ -1,8 +1,7 @@
 #ifndef RAKTAR_H_INCLUDED
 #define RAKTAR_H_INCLUDED
 
-
-/// Saj·t f·jlok
+/// Saj√°t f√°jlok
 #include "../memtrace.h"
 #include "vevo.h"
 #include "karakter.h"
@@ -10,11 +9,12 @@
 /// Using namespaces
 using std::cout;
 using std::endl;
+using std::random_shuffle;
 
 
 /**
-Rakt·rakat leÌrÛ oszt·ly
- - itt lesznek elt·rolva egyszerre tˆbb karakter
+Rakt√°rakat le√≠r√≥ oszt√°ly
+ - itt lesznek elt√°rolva egyszerre t√∂bb karakter
 **/
 
 class Raktar{
@@ -29,19 +29,25 @@ class Raktar{
         Raktar(){};
         Raktar(Karakter* el_kar, int el_kar_szama){
 
-            // Karakterek be·llÌt·sa
-            this->karakterek = new Karakter[3];
-            this->kar_szama = 3;
+            // V√©letlen karakterek sz√°ma gener√°l√°s
+            int max_es_elerheto_kar_szama = (el_kar_szama < MAX_KARAKTAREK_SZAMA) ? el_kar_szama : MAX_KARAKTAREK_SZAMA;
+            int vel_kar_szama = rand() % (max_es_elerheto_kar_szama-MIN_KARAKTAREK_SZAMA+1) + MIN_KARAKTAREK_SZAMA;
+
+            // El√©rhet≈ë karakterek kever√©se
+            random_shuffle(&el_kar[0], &el_kar[el_kar_szama]);
+
+            // Karakterek be√°ll√≠t√°sa
+            this->karakterek = new Karakter[vel_kar_szama];
+            this->kar_szama = vel_kar_szama;
 
             for(int i=0; i<this->kar_szama; i++){
                 this->karakterek[i] = el_kar[i];
                 this->ossz_ertek += el_kar[i].get_ertek();
-                //this->karakterek[i].set_all(el_kar[i].get_k(), el_kar[i].get_ertek(), el_kar[i].get_gyakorisag());
             }
 
         }
 
-        /// Karakterek tˆmb felszabadÌt·sa
+        /// Karakterek t√∂mb felszabad√≠t√°sa
         void karakterek_felszabaditasa(){
             delete[] this->karakterek;
         }
@@ -52,7 +58,7 @@ class Raktar{
         int get_ossz_ertek() const {return this->ossz_ertek;}
 
 
-        /// KiÌr·sa
+        /// Ki√≠r√°sa
         void print(){
             cout << "Raktar: " << endl;
             cout << "--------------------------" << endl;

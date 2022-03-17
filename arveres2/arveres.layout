@@ -2,6 +2,27 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+	<File name="console.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1988" topLine="13" />
+		</Cursor>
+		<Folding>
+			<Collapse line="15" />
+			<Collapse line="23" />
+			<Collapse line="29" />
+			<Collapse line="35" />
+			<Collapse line="39" />
+			<Collapse line="50" />
+			<Collapse line="65" />
+			<Collapse line="75" />
+			<Collapse line="85" />
+		</Folding>
+	</File>
+	<File name="gtest_lite.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="20207" topLine="414" />
+		</Cursor>
+	</File>
 	<File name="adat_strukt\karakter.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="168" topLine="0" />
@@ -12,19 +33,24 @@
 			<Collapse line="35" />
 		</Folding>
 	</File>
-	<File name="adat_strukt\vevo.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="adat_strukt\raktar.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="16" topLine="0" />
+			<Cursor1 position="18" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="_test_.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="memtrace.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="214" topLine="0" />
+			<Cursor1 position="6225" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="adat_strukt\karakter.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="memtrace.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="20" topLine="0" />
+			<Cursor1 position="15628" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1177" topLine="30" />
 		</Cursor>
 	</File>
 	<File name="adat_strukt\licitalas.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -32,9 +58,61 @@
 			<Cursor1 position="24" topLine="0" />
 		</Cursor>
 	</File>
+	<File name="adat_strukt\vevo.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2447" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="14" />
+			<Collapse line="19" />
+			<Collapse line="28" />
+			<Collapse line="33" />
+			<Collapse line="41" />
+			<Collapse line="57" />
+			<Collapse line="60" />
+			<Collapse line="65" />
+			<Collapse line="71" />
+			<Collapse line="78" />
+			<Collapse line="83" />
+			<Collapse line="92" />
+		</Folding>
+	</File>
+	<File name="adat_strukt\licitalas.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="289" topLine="15" />
+		</Cursor>
+		<Folding>
+			<Collapse line="29" />
+			<Collapse line="62" />
+			<Collapse line="68" />
+			<Collapse line="70" />
+			<Collapse line="75" />
+			<Collapse line="84" />
+			<Collapse line="87" />
+			<Collapse line="92" />
+			<Collapse line="102" />
+			<Collapse line="121" />
+			<Collapse line="124" />
+			<Collapse line="130" />
+		</Folding>
+	</File>
+	<File name="adat_strukt\jatek.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="660" topLine="2" />
+		</Cursor>
+		<Folding>
+			<Collapse line="25" />
+			<Collapse line="46" />
+		</Folding>
+	</File>
+	<File name="adat_strukt\vevo.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="adat_strukt\jatek.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="7064" topLine="19" />
+			<Cursor1 position="7064" topLine="30" />
 		</Cursor>
 		<Folding>
 			<Collapse line="3" />
@@ -57,103 +135,24 @@
 			<Collapse line="251" />
 		</Folding>
 	</File>
-	<File name="adat_strukt\jatek.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="adat_strukt\karakter.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="660" topLine="2" />
-		</Cursor>
-		<Folding>
-			<Collapse line="25" />
-			<Collapse line="46" />
-		</Folding>
-	</File>
-	<File name="memtrace.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="15628" topLine="0" />
+			<Cursor1 position="20" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="gtest_lite.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="_test_.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="20207" topLine="414" />
+			<Cursor1 position="214" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="adat_strukt\vevo.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="adat_strukt\raktar.h" open="1" top="1" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="386" topLine="25" />
+			<Cursor1 position="1305" topLine="24" />
 		</Cursor>
 		<Folding>
 			<Collapse line="14" />
-			<Collapse line="28" />
-			<Collapse line="33" />
-			<Collapse line="57" />
-			<Collapse line="60" />
-			<Collapse line="65" />
-			<Collapse line="71" />
-			<Collapse line="78" />
-			<Collapse line="83" />
-			<Collapse line="92" />
-			<Collapse line="105" />
+			<Collapse line="61" />
+			<Collapse line="64" />
 		</Folding>
-	</File>
-	<File name="adat_strukt\raktar.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="186" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="14" />
-			<Collapse line="19" />
-			<Collapse line="44" />
-			<Collapse line="55" />
-			<Collapse line="58" />
-		</Folding>
-	</File>
-	<File name="adat_strukt\raktar.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="18" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="console.h" open="1" top="1" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1988" topLine="1" />
-		</Cursor>
-		<Folding>
-			<Collapse line="15" />
-			<Collapse line="23" />
-			<Collapse line="29" />
-			<Collapse line="35" />
-			<Collapse line="39" />
-			<Collapse line="50" />
-			<Collapse line="65" />
-			<Collapse line="75" />
-			<Collapse line="85" />
-		</Folding>
-	</File>
-	<File name="adat_strukt\licitalas.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="289" topLine="15" />
-		</Cursor>
-		<Folding>
-			<Collapse line="29" />
-			<Collapse line="62" />
-			<Collapse line="68" />
-			<Collapse line="70" />
-			<Collapse line="75" />
-			<Collapse line="84" />
-			<Collapse line="87" />
-			<Collapse line="92" />
-			<Collapse line="102" />
-			<Collapse line="121" />
-			<Collapse line="124" />
-			<Collapse line="130" />
-		</Folding>
-	</File>
-	<File name="memtrace.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6225" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="167" topLine="18" />
-		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
