@@ -1,11 +1,6 @@
 #ifndef JATEK_H_INCLUDED
 #define JATEK_H_INCLUDED
 
-/// Includes
-#include <iostream>
-#include <string>
-#include <conio.h> // PressAKeyToContinue függvényhez
-
 /// Saját fájlok
 #include "../memtrace.h"
 #include "../console.h"
@@ -22,6 +17,9 @@ using std::endl;
 using std::string;
 using std::ifstream;
 using std::ofstream;
+using std::setw;
+using std::setfill;
+using std::to_string;
 
 
 /** Egy játék menetet leíró osztály **/
@@ -57,7 +55,8 @@ class Jatek{
         void karakter_fajl_beolvas();
         void jatekos_fajl_beolvas();
 
-        /// Játék főmenü indítása
+        /// Játék főmenü megjelenítése / indítása
+        char fomenu_print();
         void fomenu_inditas();
 
         /// Licitek indítása

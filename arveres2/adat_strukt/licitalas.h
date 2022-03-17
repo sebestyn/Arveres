@@ -50,14 +50,14 @@ class Licitalas{
             // Raktár kirajzolása
             this->get_raktar().print();
 
-            // Ameddig az ember nem szallt ki és legalább egy robot sem
+            // Kérdezkedés -> ameddig az ember nem szallt ki és legalább egy robot nem passzol
             while(!ember_kiszallt && robot_passzok_szama < 3){
 
                 // Aktuális ár kiírása
                 this->print_akt_ar();
 
                 // Ember megkérdezése mennyivel emel
-                int ember_emeles = ember->emelek();
+                int ember_emeles = ember->emelsz();
                 cout << "Ennyivel emeltel: " << ember_emeles << endl;
                 // Ha az ember kiszáll
                 if(ember_emeles == 0) {
@@ -99,7 +99,7 @@ class Licitalas{
 
             }
 
-            // Ember megnyerte (ha ember nem szállt ki  és 3 robot passz volt)
+            // Ember megnyerte-e? (ha ember nem szállt ki  és 3 robot passz volt)
             if(!ember_kiszallt && robot_passzok_szama>=3){
                 cout << endl << "MEGNYERTED A RAKTART" << endl << endl;
                 // Profit kiszámolása és kiítása
@@ -107,14 +107,11 @@ class Licitalas{
                 cout << "Ennyit fizettel: " << this->akt_ar << endl;
                 cout << "Ennyi az erteke: " << this->raktar.get_ossz_ertek() << endl;
                 cout << "Raktarbol szerzett profit: " << profit << endl;
-                // Pénz egyenleg csökkentese
-                this->ember->penz_csokkentese(this->akt_ar);
+                // Ember pénz egyenleg változtatása
+                this->ember->change_penz(profit);
                 // Megvett raktárak száma növelése
                 this->ember->megvett_raktarak_szama_plus_1();
             }
-
-            cout << endl << endl << "Raktar a licitalas.kezdes vegen:" << endl;
-            this->raktar.print();
 
             // Raktár dinamikus karakterei felszabadítása
             this->raktar.karakterek_felszabaditasa();

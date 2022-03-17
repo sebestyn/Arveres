@@ -1,7 +1,4 @@
-
 #include "jatek.h"
-
-
 
 /// Konstruktor -> Egy új játék indítása
 Jatek::Jatek(){
@@ -50,8 +47,15 @@ void Jatek::jatekos_fajl_beolvas(){
     // Fájl megnyitása
     ifstream fajl(this->JATEKOS_FAJL_NEV);
 
+    // Fájl még nem létezik vagy üres -> alap kezdő adatok beállítása
+    if(!fajl.is_open() || fajl.peek() == std::ifstream::traits_type::eof()) {
+        this->hanyadik_raktar = 0;
+        // Új kezdő Ember mentése a játékba
+        Ember temp_ember;
+        this->ember = temp_ember;
+    }
     // Fájl már létezik és nem üres -> adatok beolvasása
-    if (fajl.is_open()){
+    else {
         // 1. sor -> Hanyadik raktár beolvasás, mentés játékba
         fajl >> this->hanyadik_raktar;
         // 2. sor -> Ember pénze
@@ -71,13 +75,7 @@ void Jatek::jatekos_fajl_beolvas(){
         // Fájl bezárása
         fajl.close();
     }
-    // Fájl még nem létezik -> alap kezdő adatok beállítása
-    else {
-        this->hanyadik_raktar = 0;
-        // Új kezdő Ember mentése a játékba
-        Ember temp_ember;
-        this->ember = temp_ember;
-    }
+
 }
 // Mind2 fájl beolvasás és hibák figyelése
 void Jatek::beolvas_fajlokbol(){
@@ -115,30 +113,46 @@ void Jatek::kiiras_fajlba(){
 }
 
 
-/// Játék főmenü indítása
-void Jatek::fomenu_inditas(){
+/// Játék futtatás
+// Játék főmenü megjelenítése
+char Jatek::fomenu_print(){
+    // Konzol törlése
+    console::Clear();
 
+    // Cím
+    console::print_jatek_cim();
+
+    // Státuszok
+    cout << setfill('.');
+    const int cim_length = 84;
+    const int nev_length = this->ember.get_nev().length();
+    const int penz_length = to_string(ember.get_penz()).length();
+    cout << "|" << setw(cim_length/2+1) << " Nevem = "      << this->ember.get_nev()  << " "    << setw(cim_length/2-nev_length-2)  << "|" << endl;
+    cout << "|" << setw(cim_length/2+1) << " Egyenlegem = " << this->ember.get_penz() << " Ft " << setw(cim_length/2-penz_length-5) << "|" << endl;
+    cout << "=====================================================================================" << endl;
+
+    // Menü
+    cout << setfill(' ');
+    cout << setw(cim_length/2-13) << "|| "     << "           MENU"       << setw(14) << "||" << endl;
+    cout << setw(cim_length/2-9) << "|| n ->" << " Uj jatek"             << setw(16) << "||" << endl;
+    if(this->hanyadik_raktar > 0) {
+        cout << setw(cim_length/2-9) << "|| c ->" <<" Jatek folytatasa"      << setw(8)  << "||" << endl;
+    }
+    cout << setw(cim_length/2-9) << "|| p ->" << " Jatek adatai kiirasa" << setw(4)  << "||" << endl;
+    cout << setw(cim_length/2-9) << "|| q ->" << " Kilepes (mentes)"     << setw(8)  << "||" << endl;
+    cout << setw(cim_length/2-15) << " " << "==============================" << endl;
+    cout << setw(cim_length/2-12) << " " << " Adj meg egy karaktert: ";
+
+    // Karakter bemenet
+    return console::char_input();
+}
+// Játék főmenü indítása
+void Jatek::fomenu_inditas(){
     char bemenet = '0';
     while(bemenet != 'q' && bemenet != 'Q'){
 
-        // Konzol törlése
-        console::Clear();
-
-        // Info
-        cout << endl;
-        cout << " ============== KARAKTER RAKTAR ARVERES ==============" << endl << endl;
-        cout << " Nevem = " << this->ember.get_nev() << endl;
-        cout << " Egyenlegem = " << this->ember.get_penz() << " Ft" << endl << endl;
-
-        // Főmenü elemei
-        cout << " n -> Uj jatek" << endl;
-        if(this->hanyadik_raktar > 0){ // csak akkor ha már a raktárak száma nem 0
-            cout << " c -> Jatek folytatasa" << endl;
-        }
-        cout << " p -> Jatek adatai kiirasa" << endl;
-        cout << " q -> Kilepes (ENELKUL AZ ADATOK ELVESZNEK)" << endl;
-        cout << " Valasztasom: ";
-        bemenet = console::char_input();
+        // Menü megjelenítése
+        bemenet = this->fomenu_print();
 
         // Konzol törlése
         console::Clear();
@@ -151,7 +165,7 @@ void Jatek::fomenu_inditas(){
                     // Minden adat alapra állítása
                     this->reset();
                     // Ember nevének bekérdezése
-                    cout << "Add meg a neved (szokoz nelkul): ";
+                    cout << "Add meg a neved: ";
                     this->ember.set_nev(console::string_input());
                     // Licitek indítása ameddig ki nem lép
                     this->licitek_inditas();
@@ -181,17 +195,16 @@ void Jatek::fomenu_inditas(){
                     }
                     break;
                 }
-                // defaultba ugrik
+                // Ha meg nincs régi játék -> defaultba ugrik
             default:
-                cout << "Hibas bemenet" << endl;
-                console::PressAKeyToContinue();
+                //cout << "Hibas bemenet" << endl;
+                //console::PressAKeyToContinue();
+                console::print_hibas_bemenet();
         }
 
     }
 }
-
-
-/// Licitek indítása
+// Licitek indítása
 void Jatek::licitek_inditas(){
 
     // Addig uj raktár licitálás ameddig azt nem mondja hogy nem

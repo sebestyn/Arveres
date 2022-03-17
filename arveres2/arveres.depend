@@ -208,8 +208,11 @@
 1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres\adat_strukt\raktar.cpp
 	"raktar.h"
 
-1647437882 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\main.cpp
+1647540987 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\main.cpp
 	<iostream>
+	<string>
+	<conio.h>
+	<algorithm>
 	"memtrace.h"
 	"adat_strukt/karakter.h"
 	"adat_strukt/karakter.cpp"
@@ -251,10 +254,7 @@
 1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\karakter.cpp
 	"karakter.h"
 
-1647438992 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\jatek.h
-	<iostream>
-	<string>
-	<conio.h>
+1647537778 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\jatek.h
 	"../memtrace.h"
 	"../console.h"
 	"vevo.h"
@@ -262,25 +262,23 @@
 	"raktar.h"
 	"licitalas.h"
 
-1647430982 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\console.h
-	<iostream>
-	<string>
+1647542984 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\console.h
 
-1647430360 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\vevo.h
+1647524920 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\vevo.h
 	"../memtrace.h"
 	"raktar.h"
 
-1647441919 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\raktar.h
+1647525148 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\raktar.h
 	"../memtrace.h"
 	"vevo.h"
 	"karakter.h"
 
-1647442015 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\licitalas.h
+1647510038 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\licitalas.h
 	"../memtrace.h"
 	"raktar.h"
 	"karakter.h"
 
-1647441512 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\jatek.cpp
+1647542439 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\jatek.cpp
 	"jatek.h"
 
 1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres2\adat_strukt\vevo.cpp

@@ -1,9 +1,9 @@
 #ifndef VEVO_H_INCLUDED
 #define VEVO_H_INCLUDED
 
-#include "../memtrace.h"
 
 /// Saját fájlok
+#include "../memtrace.h"
 #include "raktar.h"
 
 /// Using namespaces
@@ -46,7 +46,6 @@ class Ember : public Vevo {
         string nev;
         static int KEZDO_PENZ;
     public:
-
         /// Konstruktor
         Ember(int p = KEZDO_PENZ, int m = 0, string n=""):penz(p), megvett_raktarak_szama(m), nev(n){this->set_id(0);}
 
@@ -70,16 +69,15 @@ class Ember : public Vevo {
         }
 
         /// Licitálás emelés kérdés
-        int emelek(){
-            cout << "Mennyivel emelek vagy kiszallok(0)?" << endl;
-            int emelek_osszeg;
-            cin >> emelek_osszeg;
+        int emelsz(){
+            cout << "Mennyivel emelsz? (ha kiszallsz 0-t irj)" << endl;
+            int emelek_osszeg = console::int_input(true);
             return emelek_osszeg;
         }
 
-        /// Pénz csökkentése
-        void penz_csokkentese(int mennyivel=0){
-            this->penz = this->penz-mennyivel;
+        /// Pénz változtatása
+        void change_penz(int profit=0){
+            this->penz = this->penz+profit;
         }
 
         /// Kiírás

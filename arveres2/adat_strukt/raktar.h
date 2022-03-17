@@ -2,7 +2,7 @@
 #define RAKTAR_H_INCLUDED
 
 
-/// SajÃ¡t fÃ¡jlok
+/// Saját fájlok
 #include "../memtrace.h"
 #include "vevo.h"
 #include "karakter.h"
@@ -13,8 +13,8 @@ using std::endl;
 
 
 /**
-RaktÃ¡rakat leÃ­rÃ³ osztÃ¡ly
- - itt lesznek eltÃ¡rolva egyszerre tÃ¶bb karakter
+Raktárakat leíró osztály
+ - itt lesznek eltárolva egyszerre több karakter
 **/
 
 class Raktar{
@@ -28,7 +28,8 @@ class Raktar{
         /// Konstruktor
         Raktar(){};
         Raktar(Karakter* el_kar, int el_kar_szama){
-            // Karakterek beÃ¡llÃ­tÃ¡sa
+
+            // Karakterek beállítása
             this->karakterek = new Karakter[3];
             this->kar_szama = 3;
 
@@ -40,7 +41,7 @@ class Raktar{
 
         }
 
-        /// Karakterek tÃ¶mb felszabadÃ­tÃ¡sa
+        /// Karakterek tömb felszabadítása
         void karakterek_felszabaditasa(){
             delete[] this->karakterek;
         }
@@ -51,7 +52,7 @@ class Raktar{
         int get_ossz_ertek() const {return this->ossz_ertek;}
 
 
-        /// KiÃ­rÃ¡sa
+        /// Kiírása
         void print(){
             cout << "Raktar: " << endl;
             cout << "--------------------------" << endl;

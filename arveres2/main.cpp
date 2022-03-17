@@ -3,7 +3,11 @@
 
 /// Includes
 #include <iostream>
+#include <string>
+#include <conio.h> // PressAKeyToContinue függvényhez
+#include <algorithm>
 #include "memtrace.h"
+
 
 /// Saját fájlok
 #include "adat_strukt/karakter.h"
@@ -34,8 +38,8 @@ using std::endl;
 
 
 /// STATIKUS VÁLTOZÓK
-char* Jatek::KARAKTER_FAJL_NEV = (char*)"adatok/karaker.dat";
-char* Jatek::JATEKOS_FAJL_NEV  = (char*)"adatok/jatekos.dat";
+char* Jatek::KARAKTER_FAJL_NEV = (char*)"data/karaker.dat";
+char* Jatek::JATEKOS_FAJL_NEV  = (char*)"data/jatekos.dat";
 int Ember::KEZDO_PENZ = 2500;
 int Robot::ALAP_EMELES_LICITNEL = 200;
 int Licitalas::KEZDO_AR = 100;
@@ -90,3 +94,6 @@ int main(){
 
 #endif // TEST_MODE
 }
+
+
+
