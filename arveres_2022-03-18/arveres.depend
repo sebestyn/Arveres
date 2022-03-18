@@ -299,3 +299,94 @@
 	<ctype.h>
 	"memtrace.h"
 
+1647544744 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\main.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<algorithm>
+	<time.h>
+	"memtrace.h"
+	"adat_strukt/karakter.h"
+	"adat_strukt/karakter.cpp"
+	"adat_strukt/jatek.h"
+	"adat_strukt/jatek.cpp"
+	"adat_strukt/vevo.h"
+	"adat_strukt/vevo.cpp"
+	"adat_strukt/licitalas.h"
+	"adat_strukt/licitalas.cpp"
+	"adat_strukt/raktar.h"
+	"adat_strukt/raktar.cpp"
+	"console.h"
+
+1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\memtrace.h
+	<new>
+	<cstdio>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<list>
+	<map>
+	<algorithm>
+	<functional>
+	<memory>
+	<iomanip>
+	<locale>
+	<typeinfo>
+	<ostream>
+	<stdexcept>
+	<ctime>
+	<iterator>
+	<regex>
+
+1647430843 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\adat_strukt\karakter.h
+	"../memtrace.h"
+
+1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\adat_strukt\karakter.cpp
+	"karakter.h"
+
+1647537778 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\adat_strukt\jatek.h
+	"../memtrace.h"
+	"../console.h"
+	"vevo.h"
+	"karakter.h"
+	"raktar.h"
+	"licitalas.h"
+
+1647542984 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\console.h
+
+1647543627 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\adat_strukt\vevo.h
+	"../memtrace.h"
+	"raktar.h"
+
+1647544722 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\adat_strukt\raktar.h
+	"../memtrace.h"
+	"vevo.h"
+	"karakter.h"
+
+1647510038 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\adat_strukt\licitalas.h
+	"../memtrace.h"
+	"raktar.h"
+	"karakter.h"
+
+1647542439 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\adat_strukt\jatek.cpp
+	"jatek.h"
+
+1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\adat_strukt\vevo.cpp
+	"vevo.h"
+
+1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\adat_strukt\licitalas.cpp
+	"licitalas.h"
+
+1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\adat_strukt\raktar.cpp
+	"raktar.h"
+
+1647409865 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-03-18\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
