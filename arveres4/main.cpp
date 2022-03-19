@@ -103,7 +103,7 @@ int main(){
 
 
     /// Fájlokba kiírás (hiba esetén kilép)
-    cout << "Fajlok mentese: ";
+    cout << " Fajlok mentese: ";
     try{
         Fojatek.kiiras_fajlba();
         cout << "SIKERES" << endl;

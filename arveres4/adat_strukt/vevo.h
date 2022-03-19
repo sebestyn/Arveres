@@ -118,11 +118,12 @@ class Robot : public Vevo {
 
         /// Licitálás emelés kérdés
         int emelsz(int akt_ar){
-            if(this->max_licit-akt_ar > 1){
+            // Ha nem lépte túl a max licitet
+            if(this->max_licit > akt_ar){
                 int mennyivel_emeljek = random::range(1, this->max_licit-akt_ar);
-                if(akt_ar+mennyivel_emeljek < this->max_licit){
-                    return mennyivel_emeljek;
-                }
+                // 10es kerekítés
+                mennyivel_emeljek=(((mennyivel_emeljek+10)/10)*10);
+                return mennyivel_emeljek;
             }
             return 0;
         }

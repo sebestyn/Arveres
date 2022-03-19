@@ -110,6 +110,14 @@ class Licitalas{
             // Ember megnyerte-e? (ha ember nem szállt ki  és 3 robot passz volt)
             if(!ember_kiszallt && robot_passzok_szama>=3){
 
+                // Adatok kiírása
+                console::Clear();
+                console::print_raktar_cim();
+                cout << setw(10) << "" << "Egyenlegem: " << this->ember->get_penz() << "Ft" << endl << endl;
+                this->get_raktar().print();
+                this->print_akt_ar();
+                cout << "===========================================" << endl << endl;
+
                 // Profit kiszámolása és kiírása
                 int profit = this->raktar.get_ossz_ertek() - this->akt_ar;
 
