@@ -23,7 +23,7 @@ class Licitalas{
     public:
 
         /// Konstruktor
-        Licitalas(){ cout << "Licitalas konstruktor() " <<  endl; }
+        //Licitalas(){ cout << "Licitalas konstruktor() " <<  endl; }
         Licitalas(Ember* ember_pointer, Karakter* elerheto_karakterek, int el_kar_szama) :ember(ember_pointer), akt_ar(this->KEZDO_AR) {
 
             // Új raktár generálása

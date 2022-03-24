@@ -53,6 +53,21 @@ class Raktar{
 
         }
 
+        /*
+        // Másoló = operátor
+        Raktar& operator=(const Raktar& r) {
+            if (this != &r) {
+                delete[] this->karakterek;
+                this->kar_szama = r.kar_szama;
+                this->karakterek = new Karakter[kar_szama];
+                for (int i = 0; i < kar_szama; i++){
+                    this->karakterek[i] = r.karakterek[i];
+                }
+            }
+            return *this;
+        }
+        */
+
         /// Karakterek tömb felszabadítása
         void karakterek_felszabaditasa(){
             delete[] this->karakterek;

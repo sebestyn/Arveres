@@ -622,3 +622,119 @@
 	<ctype.h>
 	"memtrace.h"
 
+1647951271 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\main.cpp
+	<iostream>
+	<string>
+	<cmath>
+	<conio.h>
+	<algorithm>
+	<time.h>
+	<unistd.h>
+	"memtrace.h"
+	"console.h"
+	"random.h"
+	"adat_strukt/karakter.h"
+	"adat_strukt/karakter.cpp"
+	"adat_strukt/jatek.h"
+	"adat_strukt/jatek.cpp"
+	"adat_strukt/licitalas.h"
+	"adat_strukt/licitalas.cpp"
+	"adat_strukt/raktar.h"
+	"adat_strukt/raktar.cpp"
+	"adat_strukt/vevo.h"
+	"adat_strukt/vevo.cpp"
+	"_test_.cpp"
+
+1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\memtrace.h
+	<new>
+	<cstdio>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<list>
+	<map>
+	<algorithm>
+	<functional>
+	<memory>
+	<iomanip>
+	<locale>
+	<typeinfo>
+	<ostream>
+	<stdexcept>
+	<ctime>
+	<iterator>
+	<regex>
+
+1647626957 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\console.h
+
+1647596360 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\random.h
+
+1647430843 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\karakter.h
+	"../memtrace.h"
+
+1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\karakter.cpp
+	"karakter.h"
+
+1647627473 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\jatek.h
+	"../memtrace.h"
+	"../console.h"
+	"vevo.h"
+	"karakter.h"
+	"raktar.h"
+	"licitalas.h"
+
+1647951271 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\vevo.h
+	"../memtrace.h"
+	"raktar.h"
+
+1647951985 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\raktar.h
+	"../memtrace.h"
+	"vevo.h"
+	"karakter.h"
+
+1647954139 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\licitalas.h
+	"../memtrace.h"
+	"raktar.h"
+	"karakter.h"
+
+1647627497 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\jatek.cpp
+	"jatek.h"
+
+1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\licitalas.cpp
+	"licitalas.h"
+
+1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\raktar.cpp
+	"raktar.h"
+
+1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\vevo.cpp
+	"vevo.h"
+
+1647597087 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\_test_.cpp
+	<iostream>
+	<fstream>
+	"gtest_lite.h"
+	"memtrace.h"
+
+1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\gtest_lite.h
+	<iostream>
+	<cassert>
+	<cmath>
+	<cstring>
+	<limits>
+	<cstdlib>
+	<string>
+	<fstream>
+	<iterator>
+	<regex>
+	"memtrace.h"
+
+1647409865 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+

@@ -220,6 +220,7 @@ void Jatek::licitek_inditas(){
         // Folytatja-e?
         cout << endl << " Szeretned folytatni a kovetkezo raktarral? ";
         folytat = console::char_input();
+
         // Addig kérdezgetem ameddig nem n vagy i a válasz
         while(folytat != 'i' && folytat != 'n'){
             cout << endl << " igen vagy nem? ";
