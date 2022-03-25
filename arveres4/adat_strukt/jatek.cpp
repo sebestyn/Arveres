@@ -287,7 +287,7 @@ void Jatek::print_leiras(){
     cout << setw(10) << "1. " << "A cel, hogy ossze gyujts " << this->NYERO_EGYENLEG << " Ft osszeget." << endl;
     cout << setw(10) << "2. " << "Raktarakra kell licitalnod robotok ellen." << endl;
     cout << setw(10) << "3. " << "Minden raktarban karakterek lesznek amiknek az ertekuk a jatek folyaman nem valtozik." << endl;
-    cout << setw(10) << "4. " << "Ha sikerul megszerezned egy raktarat rögtön megkapod a belole szerzett profitot." << endl;
+    cout << setw(10) << "4. " << "Ha sikerul megszerezned egy raktarat rogton megkapod a belole szerzett profitot." << endl;
     cout << setw(10) << "5. " << "Addig kapsz uj raktarakat ameddig vissza nem mesz a fomenube." << endl;
     cout << setw(10) << "6. " << "A raktarak szama vegtelen es ameddig nem kezdesz uj jatekot, ott tudod folytatni ahol abba hagytad." << endl;
     cout << endl;

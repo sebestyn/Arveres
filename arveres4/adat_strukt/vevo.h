@@ -1,7 +1,6 @@
 #ifndef VEVO_H_INCLUDED
 #define VEVO_H_INCLUDED
 
-
 /// Saját fájlok
 #include "../memtrace.h"
 #include "raktar.h"
@@ -14,11 +13,13 @@ using std::string;
 using std::exp;
 
 /**
-Vevők leíró osztályy
+Vevők leíró osztály
  - lehet robot vagy ember
+ - mindkettotol meg lehet majd kérdezni hogy mennyivel szeretne emelni
+ - az embernel szamon van tartva mennyi penze van
 **/
 
- class Vevo{
+class Vevo{
     private:
         int id;
     public:
@@ -56,40 +57,16 @@ class Ember : public Vevo {
         int get_megvett_raktarak_szama() const { return this->megvett_raktarak_szama;}
 
         /// SET parameters
-        void set_nev(string nev){
-            this->nev = nev;
-        }
-        void megvett_raktarak_szama_plus_1(){
-            this->megvett_raktarak_szama += 1;
-        }
-
-        /// Reset -> minden adat alpra állítása
-        void reset(){
-            this->penz = this->KEZDO_PENZ;
-            this->megvett_raktarak_szama = 0;
-        }
+        void set_nev(string nev){ this->nev = nev; }
+        void megvett_raktarak_szama_plus_1(){this->megvett_raktarak_szama += 1;}
+        void change_penz(int profit=0){this->penz = this->penz+profit;}
+        void reset(){this->penz = this->KEZDO_PENZ; this->megvett_raktarak_szama = 0;}
 
         /// Licitálás emelés kérdés
-        int emelsz(){
-            cout << " Mennyivel emelsz? (0=kiszallok) ";
-            int emelek_osszeg = console::int_input(true);
-            cout << endl;
-            return emelek_osszeg;
-        }
-
-        /// Pénz változtatása
-        void change_penz(int profit=0){
-            this->penz = this->penz+profit;
-        }
+        int emelsz();
 
         /// Kiírás
-        void print() {
-            cout << "   Ember:" << endl <<
-                    "    - id: "<< this->get_id() << endl <<
-                    "    - nev: "<< this->nev << endl <<
-                    "    - Penz egyenlege: "<< this->penz << endl <<
-                    "    - Megevett raktarak: "<< this->megvett_raktarak_szama << endl;
-        }
+        void print();
 };
 
 class Robot : public Vevo {
@@ -102,37 +79,14 @@ class Robot : public Vevo {
         /// Konstruktor
         Robot(int id=1){this->set_id(id);}
 
-
         /// SET
-        void set_max_licit(int raktar_ertek){
-            // Túl értékeli -> 20%
-            bool tul_ertekeli = random::range(1,100) > 80;
-            int csuszas = random::range(1, raktar_ertek);
-
-            if(tul_ertekeli){
-                this->max_licit = raktar_ertek+csuszas;
-            } else {
-                this->max_licit = raktar_ertek-csuszas;
-            }
-        }
+        void set_max_licit(int raktar_ertek);
 
         /// Licitálás emelés kérdés
-        int emelsz(int akt_ar){
-            // Ha nem lépte túl a max licitet
-            if(this->max_licit > akt_ar){
-                int mennyivel_emeljek = random::range(1, this->max_licit-akt_ar);
-                // 10es kerekítés
-                mennyivel_emeljek=(((mennyivel_emeljek+10)/10)*10);
-                return mennyivel_emeljek;
-            }
-            return 0;
-        }
+        int emelsz(int akt_ar);
 
         /// Kiírás
-        void print(){
-            cout << "Robot:" << endl <<
-                    " - id: "<< this->get_id() << endl;
-        }
+        void print();
 };
 
 

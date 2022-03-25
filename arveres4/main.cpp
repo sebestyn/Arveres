@@ -14,6 +14,7 @@
 
 /// Saját fájlok
 #include "console.h"
+#include "console.cpp"
 #include "random.h"
 #include "adat_strukt/karakter.h"
 #include "adat_strukt/karakter.cpp"
@@ -33,21 +34,16 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-/// Fontos infók
-/*
- - 3 robot, 1 ember
- - Nyer: elér 10 000Ft-ot, Veszít: 0 Ft alá megy
-*/
 
 /// STATIKUS VÁLTOZÓK
-char* Jatek::KARAKTER_FAJL_NEV = (char*)"data/karaker.dat";
-char* Jatek::JATEKOS_FAJL_NEV  = (char*)"data/jatekos.dat";
-int Jatek::NYERO_EGYENLEG = 100000;
-int Ember::KEZDO_PENZ = 25000;
-int Robot::MAX_EMELES_LICITNEL = 100;
-int Licitalas::KEZDO_AR = 100;
-int Raktar::MAX_KARAKTAREK_SZAMA = 8;
-int Raktar::MIN_KARAKTAREK_SZAMA = 2;
+char* Jatek     ::KARAKTER_FAJL_NEV    = (char*)"data/karaker.dat";
+char* Jatek     ::JATEKOS_FAJL_NEV     = (char*)"data/jatekos.dat";
+int   Jatek     ::NYERO_EGYENLEG       = 100000;
+int   Ember     ::KEZDO_PENZ           = 25000;
+int   Robot     ::MAX_EMELES_LICITNEL  = 100;
+int   Licitalas ::KEZDO_AR             = 100;
+int   Raktar    ::MAX_KARAKTAREK_SZAMA = 8;
+int   Raktar    ::MIN_KARAKTAREK_SZAMA = 2;
 
 
 /// MAIN
@@ -83,7 +79,6 @@ int main(){
     /// Fő játék változó
     Jatek Fojatek;
 
-
     /// Előkészítés -> fájlok beolvasasa (hiba esetén kilép)
     try{
         Fojatek.beolvas_fajlokbol();
@@ -91,7 +86,6 @@ int main(){
         cerr << "ERROR: Olyan hiba tortent ami miatt a program nem tud tovabb futni." << endl;
         return -1;
     }
-
 
     /// Menü futtatasa  (hiba esetén kilép)
     try{
@@ -101,7 +95,6 @@ int main(){
         return -1;
     }
 
-
     /// Fájlokba kiírás (hiba esetén kilép)
     cout << " Fajlok mentese: ";
     try{
@@ -109,8 +102,6 @@ int main(){
         cout << "SIKERES" << endl;
     } catch(int){
         cout << "SIKERTELEN" << endl;
-        cerr << "ERROR: Olyan hiba tortent ami miatt a program nem tud tovabb futni." << endl;
-        return -1;
     }
 
     return 0;

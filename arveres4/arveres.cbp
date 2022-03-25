@@ -64,6 +64,9 @@
 		<Unit filename="adat_strukt/vevo.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="console.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="console.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
