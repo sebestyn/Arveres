@@ -80,6 +80,7 @@ class Jatek{
         void print_karakterek();
         void print_ember();
         void print();
+        void print_leiras();
 };
 
 #endif // JATEK_H_INCLUDED

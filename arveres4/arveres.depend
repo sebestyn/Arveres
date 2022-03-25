@@ -667,9 +667,9 @@
 	<iterator>
 	<regex>
 
-1647626957 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\console.h
+1648111834 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\console.h
 
-1647596360 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\random.h
+1648111484 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\random.h
 
 1647430843 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\karakter.h
 	"../memtrace.h"
@@ -677,7 +677,7 @@
 1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\karakter.cpp
 	"karakter.h"
 
-1647627473 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\jatek.h
+1648200572 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\jatek.h
 	"../memtrace.h"
 	"../console.h"
 	"vevo.h"
@@ -685,7 +685,7 @@
 	"raktar.h"
 	"licitalas.h"
 
-1647951271 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\vevo.h
+1648203664 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\vevo.h
 	"../memtrace.h"
 	"raktar.h"
 
@@ -699,7 +699,7 @@
 	"raktar.h"
 	"karakter.h"
 
-1647627497 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\jatek.cpp
+1648203772 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\jatek.cpp
 	"jatek.h"
 
 1647409865 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\adat_strukt\licitalas.cpp

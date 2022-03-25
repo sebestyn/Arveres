@@ -35,18 +35,19 @@ namespace console{
     }
     // Int input (Forrás: https://stackoverflow.com/questions/22818496/read-integer-from-user)
     int int_input(bool positive = false){
-        char input[12];
-        cin >> input;
-        int x = atoi(input);
-        while( (x == 0 && strcmp(input, "0")) || (positive && x<0) ) {
+            char input[8];
+            cin >> input;
+            int x = atoi(input);
+            while( (x == 0 && strcmp(input, "0")) || (positive && x<0) ) {
+                cin.clear ();
+                cin.ignore ( 100 , '\n' );
+                cout << "Rossz bemenet. Adj meg egy SZAMOT: ";
+                cin >> input;
+                x = atoi(input);
+            }
             cin.clear ();
             cin.ignore ( 100 , '\n' );
-            cout << "Rossz bemenet. Adj meg egy SZAMOT: ";
-            cin >> input;
-            x = atoi(input);
-        }
-        cin.clear ();
-        cin.ignore ( 100 , '\n' );
+
         return x;
     }
 

@@ -136,12 +136,12 @@ char Jatek::fomenu_print(){
     // Menü
     cout << setfill(' ');
     cout << setw(cim_length/2-13) << "|| "     << "           MENU"       << setw(14) << "||" << endl;
-    cout << setw(cim_length/2-9) << "|| n ->" << " Uj jatek"             << setw(16) << "||" << endl;
+    cout << setw(cim_length/2-9)  << "|| n ->" << " Uj jatek"             << setw(16) << "||" << endl;
     if(this->hanyadik_raktar > 0) {
         cout << setw(cim_length/2-9) << "|| c ->" <<" Jatek folytatasa"      << setw(8)  << "||" << endl;
     }
-    cout << setw(cim_length/2-9) << "|| p ->" << " Jatek adatai kiirasa" << setw(4)  << "||" << endl;
-    cout << setw(cim_length/2-9) << "|| q ->" << " Kilepes (mentes)"     << setw(8)  << "||" << endl;
+    cout << setw(cim_length/2-9)  << "|| i ->" << " Info"                 << setw(20)  << "||" << endl;
+    cout << setw(cim_length/2-9)  << "|| q ->" << " Kilepes (mentes)"     << setw(8)  << "||" << endl;
     cout << setw(cim_length/2-15) << " " << "==============================" << endl;
     cout << setw(cim_length/2-12) << " " << " Adj meg egy karaktert: ";
 
@@ -166,8 +166,10 @@ void Jatek::fomenu_inditas(){
                 if(this->ready){
                     // Minden adat alapra állítása
                     this->reset();
+                    // Játék leírása
+                    this->print_leiras();
                     // Ember nevének bekérdezése
-                    cout << "Add meg a neved: ";
+                    cout << setw(7) << "" << "Add meg a neved: ";
                     this->ember.set_nev(console::string_input());
                     // Licitek indítása ameddig ki nem lép
                     this->licitek_inditas();
@@ -177,8 +179,13 @@ void Jatek::fomenu_inditas(){
                 }
                 break;
             // Játék állásának kiírása
-            case 'p':
+            case 'i':
+                // Leírása
+                this->print_leiras();
+                // Aktualis adatok
                 this->print();
+                // Készítette
+                cout << endl << " Keszitette: Zsolt Sebestyen" << endl;
                 console::PressAKeyToContinue();
                 break;
             //  Kilépés
@@ -218,7 +225,7 @@ void Jatek::licitek_inditas(){
         akt_licitalas.futtatas();
 
         // Folytatja-e?
-        cout << endl << " Szeretned folytatni a kovetkezo raktarral? ";
+        cout << endl << " Szeretned folytatni a kovetkezo raktarral? (i vagy n)";
         folytat = console::char_input();
 
         // Addig kérdezgetem ameddig nem n vagy i a válasz
@@ -255,12 +262,34 @@ void Jatek::print_ember(){
 }
 // Játék kiírása
 void Jatek::print(){
-    cout << endl << "------ JATEK ADATAI ------" << endl << endl;
-    cout << "Jatek: " << endl;
-    cout << " - Eddigi raktarak szama: " << this->hanyadik_raktar << endl << endl;
-    //this->print_karakterek();
-    this->print_ember();
-    cout << "--------------------------" << endl << endl;
-}
+    cout << R"(
+     _        _         _          _
+    / \    __| |  __ _ | |_  ___  | | __
+   / _ \  / _` | / _` || __|/ _ \ | |/ /
+  / ___ \| (_| || (_| || |_| (_) ||   <
+ /_/   \_\\__,_| \__,_| \__|\___/ |_|\_\
+)" << endl;
 
+    cout << "   Jatek: " << endl;
+    cout << "    - Eddigi raktarak szama: " << this->hanyadik_raktar << endl << endl;
+    this->print_ember();
+}
+// Játék leírás
+void Jatek::print_leiras(){
+    cout << R"(
+      _         _         _                     _             _
+     | |  __ _ | |_  ___ | | __ ___  ____ __ _ | |__    __ _ | | _   _
+  _  | | / _` || __|/ _ \| |/ // __||_  // _` || '_ \  / _` || || | | |
+ | |_| || (_| || |_|  __/|   < \__ \ / /| (_| || |_) || (_| || || |_| |
+  \___/  \__,_| \__|\___||_|\_\|___//___|\__,_||_.__/  \__,_||_| \__, |
+                                                                 |___/
+)" << endl;
+    cout << setw(10) << "1. " << "A cel, hogy ossze gyujts " << this->NYERO_EGYENLEG << " Ft osszeget." << endl;
+    cout << setw(10) << "2. " << "Raktarakra kell licitalnod robotok ellen." << endl;
+    cout << setw(10) << "3. " << "Minden raktarban karakterek lesznek amiknek az ertekuk a jatek folyaman nem valtozik." << endl;
+    cout << setw(10) << "4. " << "Ha sikerul megszerezned egy raktarat rögtön megkapod a belole szerzett profitot." << endl;
+    cout << setw(10) << "5. " << "Addig kapsz uj raktarakat ameddig vissza nem mesz a fomenube." << endl;
+    cout << setw(10) << "6. " << "A raktarak szama vegtelen es ameddig nem kezdesz uj jatekot, ott tudod folytatni ahol abba hagytad." << endl;
+    cout << endl;
+}
 

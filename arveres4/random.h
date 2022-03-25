@@ -8,10 +8,6 @@ namespace random{
     int range(int first, int last){
         return rand() % (last-first+1) + first;
     }
-
-
-
-
 }
 
 

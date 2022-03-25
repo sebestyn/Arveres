@@ -84,11 +84,11 @@ class Ember : public Vevo {
 
         /// Kiírás
         void print() {
-            cout << "Ember:" << endl <<
-                    " - id: "<< this->get_id() << endl <<
-                    " - nev: "<< this->nev << endl <<
-                    " - Penz egyenlege: "<< this->penz << endl <<
-                    " - Megevett raktarak: "<< this->megvett_raktarak_szama << endl;
+            cout << "   Ember:" << endl <<
+                    "    - id: "<< this->get_id() << endl <<
+                    "    - nev: "<< this->nev << endl <<
+                    "    - Penz egyenlege: "<< this->penz << endl <<
+                    "    - Megevett raktarak: "<< this->megvett_raktarak_szama << endl;
         }
 };
 
