@@ -23,9 +23,8 @@ class Vevo{
     private:
         int id;
     public:
-
         /// Konstruktor
-        Vevo(){}
+        Vevo(int i = 0):id(i){}
 
         /// Get parameters
         int get_id() const {
@@ -38,7 +37,7 @@ class Vevo{
         }
 
         /// Kiírás
-        void print(){}
+        virtual void print() const {}
  };
 
 class Ember : public Vevo {
@@ -72,7 +71,6 @@ class Ember : public Vevo {
 class Robot : public Vevo {
     private:
         int max_licit = 0;
-        static int MAX_EMELES_LICITNEL;
 
     public:
 

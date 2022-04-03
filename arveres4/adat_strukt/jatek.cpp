@@ -169,7 +169,7 @@ void Jatek::fomenu_inditas(){
                     // Játék leírása
                     this->print_leiras();
                     // Ember nevének bekérdezése
-                    cout << setw(7) << "" << "Add meg a neved: ";
+                    cout << setw(7) << "" << "Adj meg egy felhasznalonevet (szokoz nelkul): ";
                     this->ember.set_nev(console::string_input());
                     // Licitek indítása ameddig ki nem lép
                     this->licitek_inditas();

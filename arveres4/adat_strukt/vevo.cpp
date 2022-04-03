@@ -15,8 +15,8 @@ int Ember::emelsz(){
 void Ember::print() {
     cout << "   Ember:" << endl <<
             /*"    - id: "<< this->get_id() << endl <<*/
-            "    - nev: "<< this->nev << endl <<
-            "    - Penz egyenlege: "<< this->penz << endl <<
+            "    - felhasznalonev: "<< this->nev << endl <<
+            "    - Penz egyenlege: "<< this->penz << " Ft" << endl <<
             "    - Megevett raktarak: "<< this->megvett_raktarak_szama << endl;
 }
 

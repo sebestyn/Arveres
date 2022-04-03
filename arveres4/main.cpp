@@ -40,7 +40,6 @@ char* Jatek     ::KARAKTER_FAJL_NEV    = (char*)"data/karaker.dat";
 char* Jatek     ::JATEKOS_FAJL_NEV     = (char*)"data/jatekos.dat";
 int   Jatek     ::NYERO_EGYENLEG       = 100000;
 int   Ember     ::KEZDO_PENZ           = 25000;
-int   Robot     ::MAX_EMELES_LICITNEL  = 100;
 int   Licitalas ::KEZDO_AR             = 100;
 int   Raktar    ::MAX_KARAKTAREK_SZAMA = 8;
 int   Raktar    ::MIN_KARAKTAREK_SZAMA = 2;

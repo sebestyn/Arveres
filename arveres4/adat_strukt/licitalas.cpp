@@ -79,7 +79,6 @@ void Licitalas::futtatas(){
             sleep(1);
         }
 
-
     }
 
     // Ember megnyerte-e? (ha ember nem szállt ki  és 3 robot passz volt)
