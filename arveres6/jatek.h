@@ -5,6 +5,8 @@
 #include <fstream>
 #include <iomanip>
 
+#include "memtrace.h"
+
 /// Saját fájlok
 #include "vevo.h"
 #include "karakter.h"

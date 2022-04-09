@@ -5,6 +5,8 @@
 #include <iomanip>
 #include <string.h>
 
+#include "memtrace.h"
+
 /// Using namespaces
 using std::cin;
 using std::cout;

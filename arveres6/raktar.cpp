@@ -5,7 +5,7 @@
 Raktar::Raktar(Karakter* el_kar, int el_kar_szama){
 
     // Karakterek számának beállítása
-    this->kar_szama = random::range(MIN_KARAKTAREK_SZAMA, MAX_KARAKTAREK_SZAMA);
+    this->kar_szama = random_gen::range(MIN_KARAKTAREK_SZAMA, MAX_KARAKTAREK_SZAMA);
 
     // Elérhető karakterek keverése
     random_shuffle(&el_kar[0], &el_kar[el_kar_szama]);
@@ -16,8 +16,8 @@ Raktar::Raktar(Karakter* el_kar, int el_kar_szama){
     // Karakterek beállítása valószínűség alapján
     int hanyadik = 0;
     while(hanyadik < this->kar_szama){
-        int percent = random::range(1,100);
-        int i = random::range(0,el_kar_szama-1);
+        int percent = random_gen::range(1,100);
+        int i = random_gen::range(0,el_kar_szama-1);
         if(el_kar[i].get_gyakorisag() >= percent){
             this->karakterek[hanyadik] = el_kar[i];
             this->ossz_ertek += el_kar[i].get_ertek();

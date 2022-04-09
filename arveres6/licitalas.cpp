@@ -58,7 +58,9 @@ void Licitalas::futtatas(){
                 cout << " Mivel mar nincs ennyi penzed ezt a raktart elvesztetted." << endl;
                 break;
             }
+            #ifndef CPORTA
             usleep(1);
+            #endif
         }
 
         // Robotok végig kérdezése mennyivel emel vagy passzol

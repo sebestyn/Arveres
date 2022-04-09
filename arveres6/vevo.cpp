@@ -26,8 +26,8 @@ void Ember::print() {
 // Max licit ar beallítása
 void Robot::set_max_licit(int raktar_ertek){
     // Túl értékeli -> 20%
-    bool tul_ertekeli = random::range(1,100) > 80;
-    int csuszas = random::range(1, raktar_ertek);
+    bool tul_ertekeli = random_gen::range(1,100) > 80;
+    int csuszas = random_gen::range(1, raktar_ertek);
 
     if(tul_ertekeli){
         this->max_licit = raktar_ertek+csuszas;
@@ -40,7 +40,7 @@ void Robot::set_max_licit(int raktar_ertek){
 int Robot::emelsz(int akt_ar){
     // Ha nem lépte túl a max licitet
     if(this->max_licit > akt_ar){
-        int mennyivel_emeljek = random::range(1, this->max_licit-akt_ar);
+        int mennyivel_emeljek = random_gen::range(1, this->max_licit-akt_ar);
         // 10es kerekítés
         mennyivel_emeljek=(((mennyivel_emeljek+10)/10)*10);
         return mennyivel_emeljek;

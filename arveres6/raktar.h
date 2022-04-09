@@ -5,6 +5,8 @@
 #include <math.h>
 #include <algorithm>
 
+#include <unistd.h>
+
 /// Saját fájlok
 #include "karakter.h"
 #include "random.h"

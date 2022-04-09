@@ -43,6 +43,7 @@ int console::int_input(bool positive){
 
 /// Clear console (Forrás: https://stackoverflow.com/questions/6486289/how-can-i-clear-console)
 void console::Clear(){
+    /*
     #ifndef CPORTA
         #if defined _WIN32
             system("cls");
@@ -54,6 +55,8 @@ void console::Clear(){
             system("clear");
         #endif
     #endif
+    */
+    for(int i=0; i<30; i++) std::cout << std::endl;
 }
 
 /// Wait program to press any key (Forrás: http://www.cplusplus.com/forum/articles/7312)

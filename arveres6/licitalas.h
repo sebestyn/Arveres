@@ -2,11 +2,13 @@
 #define LICITALAS_H_INCLUDED
 
 #include <iostream>
+#include <unistd.h>
+
+#include "memtrace.h"
 
 /// Saját fájlok
 #include "raktar.h"
 #include "vevo.h"
-#include <unistd.h>
 
 /// Using namespaces
 using std::cout;

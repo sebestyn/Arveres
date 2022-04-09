@@ -1,8 +1,9 @@
 #ifndef KARAKTER_H_INCLUDED
 #define KARAKTER_H_INCLUDED
 
-/// Saját fájlok
 #include <iostream>
+
+#include "memtrace.h"
 
 /// Using namespaces
 using std::cout;

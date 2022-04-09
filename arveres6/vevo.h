@@ -4,6 +4,8 @@
 #include <iostream>
 #include <unistd.h>
 
+#include <unistd.h>
+
 /// Saját fájlok
 #include "console.h"
 #include "random.h"
