@@ -4,8 +4,9 @@
 #include <iomanip>
 #include <math.h>
 #include <algorithm>
-
 #include <unistd.h>
+
+#include "memtrace.h"
 
 /// Saját fájlok
 #include "karakter.h"

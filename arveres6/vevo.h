@@ -4,7 +4,7 @@
 #include <iostream>
 #include <unistd.h>
 
-#include <unistd.h>
+#include "memtrace.h"
 
 /// Saját fájlok
 #include "console.h"

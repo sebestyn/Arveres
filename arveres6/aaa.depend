@@ -150,7 +150,7 @@
 	<string.h>
 	"memtrace.h"
 
-1649084057 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres6\console.cpp
+1649495136 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres6\console.cpp
 	"console.h"
 
 1649084203 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres6\karakter.h
@@ -160,24 +160,26 @@
 1649005616 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres6\karakter.cpp
 	"karakter.h"
 
-1649084225 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres6\vevo.h
+1649495215 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres6\vevo.h
 	<iostream>
 	<unistd.h>
-	<unistd.h>
+	"memtrace.h"
 	"console.h"
 	"random.h"
 
-1649084225 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres6\random.h
+1649495216 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres6\random.h
 	<unistd.h>
+	"memtrace.h"
 
 1649083416 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres6\vevo.cpp
 	"vevo.h"
 
-1649084225 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres6\raktar.h
+1649495219 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres6\raktar.h
 	<iomanip>
 	<math.h>
 	<algorithm>
 	<unistd.h>
+	"memtrace.h"
 	"karakter.h"
 	"random.h"
 
