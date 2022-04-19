@@ -742,3 +742,33 @@
 1648210274 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres4\console.cpp
 	"console.h"
 
+1647413465 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-04-03-kesz\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1647413465 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_2022-04-03-kesz\memtrace.h
+	<new>
+	<cstdio>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<list>
+	<map>
+	<algorithm>
+	<functional>
+	<memory>
+	<iomanip>
+	<locale>
+	<typeinfo>
+	<ostream>
+	<stdexcept>
+	<ctime>
+	<iterator>
+	<regex>
+

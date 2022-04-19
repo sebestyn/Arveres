@@ -1,5 +1,6 @@
 /// Defines
 //#define TEST_MODE
+#define MEMTRACE
 
 /// Includes
 #include <iostream>

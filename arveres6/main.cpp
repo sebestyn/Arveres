@@ -1,5 +1,6 @@
 /// Defines
 //#define TEST_MODE
+#define MEMTRACE
 
 /// Includes
 #include <iostream>
@@ -69,6 +70,8 @@ int main(){
     }
 
 #else
+
+    int* a = new int[300];
 
     // Random generátor seed véletlet(idő) beállítása
     srand(time(0));

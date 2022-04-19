@@ -4,8 +4,8 @@
 #include <iomanip>
 #include <math.h>
 #include <algorithm>
+#include <unistd.h>
 
-#define MEMTRACE
 //#include "memtrace.h"
 
 /// Saját fájlok
@@ -37,7 +37,7 @@ class Raktar{
         Raktar(Karakter* el_kar, int el_kar_szama);
 
         /// Karakterek tömb felszabadítása
-        void karakterek_felszabaditasa(){delete[] this->karakterek;}
+        void karakterek_felszabaditasa(){/*delete[] this->karakterek;*/}
 
         /// GET parameters
         int get_kar_szam()             const {return this->kar_szama;}

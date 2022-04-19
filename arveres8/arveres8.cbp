@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="arveres8" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/arveres8" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/arveres8" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="_test_.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="console.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="console.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="gtest_lite.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="jatek.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="jatek.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="karakter.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="karakter.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="licitalas.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="licitalas.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="memtrace.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="memtrace.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="raktar.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="raktar.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="random.h">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="vevo.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="vevo.h">
+			<Option target="Release" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

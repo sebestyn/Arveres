@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1650369658 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres9\main.cpp
+	<iostream>
+	"memtrace.h"
+
+1650369687 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres9\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1650369698 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres9\memtrace.h
+	<new>
+	<cstdio>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<list>
+	<map>
+	<algorithm>
+	<functional>
+	<memory>
+	<iomanip>
+	<locale>
+	<typeinfo>
+	<ostream>
+	<stdexcept>
+	<ctime>
+

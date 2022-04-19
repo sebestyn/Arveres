@@ -5,13 +5,12 @@ Keszitette: Peregi Tamas, BME IIT, 2011
 Kanari:     Szeberenyi Imre, 2013.
 VS 2012:    Szeberényi Imre, 2015.,
 mem_dump:   2016.
-memset felszabaditaskor: 2018.
+meset felszabaditaskor: 2018.
 typo:       2019.
-poi_check:  2021.
 *********************************/
 
 /*definialni kell, ha nem paracssorbol allitjuk be (-DMEMTRACE) */
-#define MEMTRACE
+/*#define MEMTRACE */
 
 #ifdef _MSC_VER
 	#define _CRT_SECURE_NO_WARNINGS 1
@@ -179,6 +178,7 @@ START_NAMESPACE
 		dying = TRUE;
 		exit(120);
 	}
+
 	static void initialize();
 END_NAMESPACE
 
@@ -188,7 +188,6 @@ END_NAMESPACE
 
 #ifdef MEMTRACE_TO_MEMORY
 START_NAMESPACE
-
 	typedef struct _registry_item {
 		void * p;    /* mem pointer*/
 		size_t size; /* size*/
@@ -197,12 +196,6 @@ START_NAMESPACE
 	} registry_item;
 
 	static registry_item registry; /*sentinel*/
-
-	static registry_item *find_registry_item(void * p) {
-        registry_item *n = &registry;
-        for(; n->next && n->next->p != p ; n=n->next);
-        return n;
-    }
 
 	static void print_registry_item(registry_item * p) {
 		if (p) {
@@ -231,13 +224,6 @@ START_NAMESPACE
 			return 1;           /* memória fogyás */
 		}
         return 0;
-	}
-
-	/* Ellenorzi, hogy a pointer regisztralt-e. Ha nem, akkor 0-val tér vissza */
-	int poi_check(void *pu) {
-	    if (pu == NULL) return 1;
-		initialize();
-        return find_registry_item(P(pu))->next != NULL;
 	}
 END_NAMESPACE
 #endif/*MEMTRACE_TO_MEMORY*/
@@ -284,6 +270,14 @@ START_NAMESPACE
 
 		return TRUE;
 	}
+
+	#ifdef MEMTRACE_TO_MEMORY
+	static registry_item *find_registry_item(void * p) {
+            	registry_item *n = &registry;
+            	for(; n->next && n->next->p != p ; n=n->next);
+            	return n;
+    	}
+    	#endif
 
 	static void unregister_memory(void * p, call_t call) {
 		initialize();
@@ -493,7 +487,7 @@ void operator delete(void * p) THROW_NOTHING {
 void operator delete[](void * p) THROW_NOTHING {
 	memtrace::traced_delete(p,FDELETEARR);
 }
-#if __cplusplus >= 201402L
+
 void operator delete(void * p, size_t) THROW_NOTHING {
 	memtrace::traced_delete(p,FDELETE);
 }
@@ -501,7 +495,6 @@ void operator delete(void * p, size_t) THROW_NOTHING {
 void operator delete[](void * p, size_t) THROW_NOTHING {
 	memtrace::traced_delete(p,FDELETEARR);
 }
-#endif
 
 /* Visual C++ 2012 miatt kell, mert háklis, hogy nincs megfelelő delete, bár senki sem használja */
 void operator delete(void * p, int, const char *) THROW_NOTHING {
