@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="_test_.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="437" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="vevo.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1297" topLine="50" />
+		</Cursor>
+	</File>
+	<File name="raktar.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="528" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="memtrace.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6106" topLine="205" />
+		</Cursor>
+	</File>
+	<File name="memtrace.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1658" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="licitalas.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="780" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="licitalas.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3835" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="6" />
+			<Collapse line="8" />
+			<Collapse line="18" />
+			<Collapse line="37" />
+			<Collapse line="43" />
+			<Collapse line="45" />
+			<Collapse line="49" />
+			<Collapse line="65" />
+			<Collapse line="70" />
+			<Collapse line="110" />
+			<Collapse line="113" />
+			<Collapse line="119" />
+		</Folding>
+	</File>
+	<File name="jatek.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="151" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="14" />
+			<Collapse line="28" />
+			<Collapse line="41" />
+			<Collapse line="68" />
+			<Collapse line="79" />
+			<Collapse line="105" />
+			<Collapse line="125" />
+			<Collapse line="137" />
+			<Collapse line="237" />
+			<Collapse line="239" />
+			<Collapse line="245" />
+			<Collapse line="250" />
+			<Collapse line="264" />
+		</Folding>
+	</File>
+	<File name="gtest_lite.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12680" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="raktar.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="414" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="17" />
+			<Collapse line="31" />
+		</Folding>
+	</File>
+	<File name="jatek.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="851" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1863" topLine="54" />
+		</Cursor>
+		<Folding>
+			<Collapse line="52" />
+			<Collapse line="60" />
+			<Collapse line="82" />
+			<Collapse line="99" />
+		</Folding>
+	</File>
+	<File name="console.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="124" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="karakter.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="85" topLine="17" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

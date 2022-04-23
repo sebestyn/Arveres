@@ -1,6 +1,6 @@
 /// Defines
 //#define TEST_MODE
-//#define MEMTRACE
+#define MEMTRACE
 
 /// Includes
 #include <iostream>
@@ -10,6 +10,8 @@
 #include <algorithm>
 #include <time.h> // Random szám generálás (srand)
 #include <unistd.h> // sleep()
+
+#include "memtrace.h"
 
 /// Saját fájlok
 #include "console.h"
@@ -26,7 +28,6 @@
 #include "jatek.cpp"
 #include "_test_.cpp"
 
-#include "memtrace.h"
 
 /// Using namespaces
 using std::cout;

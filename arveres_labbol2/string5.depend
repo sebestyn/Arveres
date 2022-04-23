@@ -1,0 +1,244 @@
+# depslib dependency file v1.0
+1650712592 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1650712592 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\memtrace.h
+	<new>
+	<cstdio>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<list>
+	<map>
+	<algorithm>
+	<functional>
+	<memory>
+	<iomanip>
+	<locale>
+	<typeinfo>
+	<ostream>
+	<stdexcept>
+	<ctime>
+
+1650722256 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\string5_test.cpp
+	"test.cpp"
+	"memtrace.h"
+	"gtest_lite.h"
+
+1650712592 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\gtest_lite.h
+	<iostream>
+	<cassert>
+	<cmath>
+	<cstring>
+	<limits>
+	<cstdlib>
+	<string>
+	<fstream>
+	"memtrace.h"
+
+1650722237 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\test.cpp
+	"karakter.h"
+	"random_gen.h"
+	"raktar.h"
+	"raktar.cpp"
+	"vevo.h"
+	"vevo.cpp"
+	"licitalas.h"
+	"licitalas.cpp"
+	"jatek.h"
+	"jatek.cpp"
+	"memtrace.h"
+	"gtest_lite.h"
+
+1650716701 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\karakter.h
+	<iostream>
+	"memtrace.h"
+
+1650714335 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\karakter.cpp
+	"karakter.h"
+
+1650717664 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\random_gen.h
+	"memtrace.h"
+
+1650720789 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\raktar.h
+	<iomanip>
+	<math.h>
+	<algorithm>
+	<unistd.h>
+	"karakter.h"
+	"random_gen.h"
+	"memtrace.h"
+
+1650716788 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\raktar.cpp
+	"raktar.h"
+
+1650720613 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\vevo.h
+	<iostream>
+	<unistd.h>
+	"console.h"
+	"console.cpp"
+	"random_gen.h"
+	"memtrace.h"
+
+1650718224 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\console.h
+	<iostream>
+	<iomanip>
+	<string.h>
+	<conio.h>
+	"memtrace.h"
+
+1650717814 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\vevo.cpp
+	"vevo.h"
+
+1650718070 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\console.cpp
+	"console.h"
+
+1650720837 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\licitalas.h
+	<iostream>
+	<unistd.h>
+	"raktar.h"
+	"vevo.h"
+	"memtrace.h"
+
+1650720323 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\licitalas.cpp
+	"licitalas.h"
+
+1650721542 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\jatek.h
+	<iostream>
+	<fstream>
+	<iomanip>
+	"vevo.h"
+	"karakter.h"
+	"licitalas.h"
+	"memtrace.h"
+
+1650721482 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol\jatek.cpp
+	"jatek.h"
+
+1650712592 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1650712592 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\memtrace.h
+	<new>
+	<cstdio>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<list>
+	<map>
+	<algorithm>
+	<functional>
+	<memory>
+	<iomanip>
+	<locale>
+	<typeinfo>
+	<ostream>
+	<stdexcept>
+	<ctime>
+
+1650722256 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\string5_test.cpp
+	"test.cpp"
+	"memtrace.h"
+	"gtest_lite.h"
+
+1650722237 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\test.cpp
+	"karakter.h"
+	"random_gen.h"
+	"raktar.h"
+	"raktar.cpp"
+	"vevo.h"
+	"vevo.cpp"
+	"licitalas.h"
+	"licitalas.cpp"
+	"jatek.h"
+	"jatek.cpp"
+	"memtrace.h"
+	"gtest_lite.h"
+
+1650716701 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\karakter.h
+	<iostream>
+	"memtrace.h"
+
+1650717664 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\random_gen.h
+	"memtrace.h"
+
+1650720789 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\raktar.h
+	<iomanip>
+	<math.h>
+	<algorithm>
+	<unistd.h>
+	"karakter.h"
+	"random_gen.h"
+	"memtrace.h"
+
+1650716788 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\raktar.cpp
+	"raktar.h"
+
+1650720613 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\vevo.h
+	<iostream>
+	<unistd.h>
+	"console.h"
+	"console.cpp"
+	"random_gen.h"
+	"memtrace.h"
+
+1650718224 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\console.h
+	<iostream>
+	<iomanip>
+	<string.h>
+	<conio.h>
+	"memtrace.h"
+
+1650718070 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\console.cpp
+	"console.h"
+
+1650717814 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\vevo.cpp
+	"vevo.h"
+
+1650720837 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\licitalas.h
+	<iostream>
+	<unistd.h>
+	"raktar.h"
+	"vevo.h"
+	"memtrace.h"
+
+1650720323 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\licitalas.cpp
+	"licitalas.h"
+
+1650721542 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\jatek.h
+	<iostream>
+	<fstream>
+	<iomanip>
+	"vevo.h"
+	"karakter.h"
+	"licitalas.h"
+	"memtrace.h"
+
+1650721482 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\jatek.cpp
+	"jatek.h"
+
+1650712592 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labbol2\gtest_lite.h
+	<iostream>
+	<cassert>
+	<cmath>
+	<cstring>
+	<limits>
+	<cstdlib>
+	<string>
+	<fstream>
+	"memtrace.h"
+

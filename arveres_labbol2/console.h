@@ -4,8 +4,9 @@
 #include <iostream>
 #include <iomanip>
 #include <string.h>
+#include <conio.h>
 
-//#include "memtrace.h"
+#include "memtrace.h"
 
 /// Using namespaces
 using std::cin;
