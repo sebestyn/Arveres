@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="test.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="25" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="22" />
+			<Collapse line="25" />
+			<Collapse line="27" />
+			<Collapse line="34" />
+			<Collapse line="36" />
+			<Collapse line="41" />
+			<Collapse line="50" />
+			<Collapse line="54" />
+			<Collapse line="65" />
+			<Collapse line="68" />
+			<Collapse line="74" />
+			<Collapse line="84" />
+			<Collapse line="93" />
+			<Collapse line="96" />
+			<Collapse line="105" />
+			<Collapse line="111" />
+			<Collapse line="119" />
+			<Collapse line="121" />
+			<Collapse line="125" />
+			<Collapse line="130" />
+			<Collapse line="141" />
+		</Folding>
+	</File>
+	<File name="jatek.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3223" topLine="1" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+			<Collapse line="22" />
+			<Collapse line="35" />
+			<Collapse line="40" />
+			<Collapse line="62" />
+			<Collapse line="63" />
+			<Collapse line="73" />
+			<Collapse line="74" />
+			<Collapse line="119" />
+			<Collapse line="233" />
+			<Collapse line="235" />
+			<Collapse line="241" />
+			<Collapse line="246" />
+			<Collapse line="260" />
+		</Folding>
+	</File>
+	<File name="gtest_lite.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15609" topLine="344" />
+		</Cursor>
+	</File>
+	<File name="karakter.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="144" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="console.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="raktar.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="139" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="memtrace.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5906" topLine="207" />
+		</Cursor>
+	</File>
+	<File name="licitalas.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="537" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="6" />
+			<Collapse line="18" />
+			<Collapse line="37" />
+			<Collapse line="43" />
+			<Collapse line="45" />
+			<Collapse line="49" />
+			<Collapse line="65" />
+			<Collapse line="70" />
+			<Collapse line="80" />
+			<Collapse line="110" />
+			<Collapse line="119" />
+		</Folding>
+	</File>
+	<File name="memtrace.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="703" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="random_gen.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="280" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="console.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="178" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="vevo.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="183" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="raktar.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="204" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="licitalas.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="229" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="41" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="vevo.h" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="275" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="jatek.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="257" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

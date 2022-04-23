@@ -240,3 +240,129 @@
 	"test.cpp"
 	"memtrace.h"
 
+1650712592 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1650712592 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\memtrace.h
+	<new>
+	<cstdio>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<list>
+	<map>
+	<algorithm>
+	<functional>
+	<memory>
+	<iomanip>
+	<locale>
+	<typeinfo>
+	<ostream>
+	<stdexcept>
+	<ctime>
+
+1650734271 source:c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\main.cpp
+	"karakter.h"
+	"raktar.h"
+	"vevo.h"
+	"licitalas.h"
+	"jatek.h"
+	"raktar.cpp"
+	"vevo.cpp"
+	"licitalas.cpp"
+	"jatek.cpp"
+	"memtrace.h"
+
+1650732882 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\test.cpp
+	"karakter.h"
+	"raktar.h"
+	"vevo.h"
+	"licitalas.h"
+	"jatek.h"
+	"raktar.cpp"
+	"vevo.cpp"
+	"licitalas.cpp"
+	"jatek.cpp"
+	"memtrace.h"
+	"gtest_lite.h"
+
+1650733606 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\karakter.h
+	<iostream>
+	"memtrace.h"
+
+1650733606 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\random_gen.h
+	"memtrace.h"
+
+1650734456 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\raktar.h
+	<iomanip>
+	<math.h>
+	<algorithm>
+	<unistd.h>
+	"karakter.h"
+	"random_gen.h"
+	"memtrace.h"
+
+1650734537 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\vevo.h
+	<iostream>
+	<unistd.h>
+	"console.h"
+	"raktar.h"
+	"console.cpp"
+	"memtrace.h"
+
+1650734028 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\console.h
+	<iostream>
+	<iomanip>
+	<string.h>
+	<conio.h>
+	"memtrace.h"
+
+1650733606 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\licitalas.h
+	<iostream>
+	<unistd.h>
+	"raktar.h"
+	"vevo.h"
+	"memtrace.h"
+
+1650733606 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\jatek.h
+	<iostream>
+	<fstream>
+	<iomanip>
+	"vevo.h"
+	"karakter.h"
+	"licitalas.h"
+	"memtrace.h"
+
+1650712592 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\gtest_lite.h
+	<iostream>
+	<cassert>
+	<cmath>
+	<cstring>
+	<limits>
+	<cstdlib>
+	<string>
+	<fstream>
+	"memtrace.h"
+
+1650730102 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\raktar.cpp
+	"raktar.h"
+
+1650717814 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\vevo.cpp
+	"vevo.h"
+
+1650720323 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\licitalas.cpp
+	"licitalas.h"
+
+1650730828 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\jatek.cpp
+	"jatek.h"
+
+1650730303 c:\users\sebi\desktop\sebi\bme\2_felev\prog2\nhf\arveres_labol_2022-04-23-kesz\console.cpp
+	"console.h"
+

@@ -8,7 +8,9 @@
 #include "raktar.h"
 #include "vevo.h"
 
-//#include "memtrace.h"
+#ifndef CPORTA
+    #include "memtrace.h"
+#endif // CPORTA
 
 /// Using namespaces
 using std::cout;

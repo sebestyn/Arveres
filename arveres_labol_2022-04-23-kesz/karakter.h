@@ -3,7 +3,9 @@
 
 #include <iostream>
 
-//#include "memtrace.h"
+#ifndef CPORTA
+    #include "memtrace.h"
+#endif // CPORTA
 
 /// Using namespaces
 using std::cout;
@@ -41,8 +43,5 @@ class Karakter{
         }
 };
 
-std::ostream& operator<<(std::ostream& os, const Karakter& k){
-    return os << " - " << k.get_k() << ": " << k.get_ertek() << "Ft (" << k.get_gyakorisag() << "%)" << endl;
-}
 
 #endif // KARAKTER_H_INCLUDED

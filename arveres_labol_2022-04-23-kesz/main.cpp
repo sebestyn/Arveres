@@ -1,7 +1,18 @@
 ﻿//#define TEST_MODE
 
 // Saját fájlok
-#include "test.cpp"
+#include "karakter.h"
+#include "raktar.h"
+#include "vevo.h"
+#include "licitalas.h"
+#include "jatek.h"
+
+#ifndef CPORTA
+    #include "raktar.cpp"
+    #include "vevo.cpp"
+    #include "licitalas.cpp"
+    #include "jatek.cpp"
+#endif // CPORTA
 
 #include "memtrace.h"
 
@@ -22,23 +33,8 @@ int   Jatek     ::NYERO_EGYENLEG       = 100000;
 
 int main() {
 
-    GTINIT(std::cin);       // Csak C(J)PORTA működéséhez kell
-
     // Random generátor seed véletlet(idő) beállítása
     srand(time(0));
-
-    #ifdef TEST_MODE
-
-    tesztek::random();
-    tesztek::karakter();
-    tesztek::raktar();
-    tesztek::vevo();
-    tesztek::licitalas();
-    tesztek::jatek();
-
-    #else
-
-    cout << "Nem teszt" << endl;
 
     /// Fő játék változó
     Jatek Fojatek(new Ember);
@@ -68,8 +64,5 @@ int main() {
         cout << "SIKERTELEN" << endl;
     }
 
-    #endif // TEST_MODE
-
-    GTEND(std::cerr);       // Csak C(J)PORTA működéséhez kell
     return 0;
 }

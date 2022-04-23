@@ -6,10 +6,14 @@
 
 /// Saját fájlok
 #include "console.h"
-#include "console.cpp"
-#include "random_gen.h"
+#include "raktar.h"
+//#include "random_gen.h"
 
-//#include "memtrace.h"
+#ifndef CPORTA
+    #include "console.cpp"
+    #include "memtrace.h"
+#endif // CPORTA
+
 
 /// Using namespaces
 using std::cout;

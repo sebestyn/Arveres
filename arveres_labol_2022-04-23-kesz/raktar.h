@@ -8,9 +8,12 @@
 
 /// Saját fájlok
 #include "karakter.h"
+//#include "vevo.h"
 #include "random_gen.h"
 
-//#include "memtrace.h"
+#ifndef CPORTA
+    #include "memtrace.h"
+#endif // CPORTA
 
 /// Using namespaces
 using std::cout;

@@ -4,9 +4,10 @@
 #include <iostream>
 #include <iomanip>
 #include <string.h>
+
 #ifndef CPORTA
-#include <conio.h>
-#endif
+    #include <conio.h>
+#endif // CPORTA
 
 #include "memtrace.h"
 
