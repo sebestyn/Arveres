@@ -2,41 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="vevo.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="71" />
-			<Collapse line="77" />
-			<Collapse line="87" />
-			<Collapse line="96" />
-			<Collapse line="124" />
-			<Collapse line="133" />
-			<Collapse line="142" />
-			<Collapse line="167" />
-			<Collapse line="175" />
-			<Collapse line="184" />
-		</Folding>
-	</File>
-	<File name="test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="378" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="vevo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1165" topLine="42" />
-		</Cursor>
-	</File>
-	<File name="raktar.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="183" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="raktar.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="40" topLine="1" />
+			<Cursor1 position="1273" topLine="29" />
 		</Cursor>
 	</File>
 	<File name="jatek.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -44,14 +12,47 @@
 			<Cursor1 position="75" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="vevo.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1273" topLine="29" />
+			<Cursor1 position="5087" topLine="38" />
+		</Cursor>
+		<Folding>
+			<Collapse line="34" />
+			<Collapse line="71" />
+			<Collapse line="77" />
+			<Collapse line="87" />
+			<Collapse line="96" />
+			<Collapse line="124" />
+			<Collapse line="133" />
+			<Collapse line="142" />
+			<Collapse line="168" />
+			<Collapse line="176" />
+			<Collapse line="185" />
+		</Folding>
+	</File>
+	<File name="vevo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1165" topLine="42" />
+		</Cursor>
+	</File>
+	<File name="test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="378" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="random_gen.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="280" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="raktar.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="40" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="raktar.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="183" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

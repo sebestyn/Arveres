@@ -159,7 +159,8 @@ int main() {
 
     tesztek::futtatas();
 
-    #else
+    #endif // TEST_MODE
+
 
     /// Fő játék változó
     Jatek Fojatek(new Ember);
@@ -189,7 +190,6 @@ int main() {
         cout << "SIKERTELEN" << endl;
     }
 
-    #endif // TEST_MODE
 
     return 0;
 }
